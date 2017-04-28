@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="XMLParserModules">
+      <UniqueIdentifier>{fba30df1-65a8-4be7-97e7-ff6e96b9b258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLParserModules\TinyXML">
+      <UniqueIdentifier>{27e63754-fc11-44c8-8bf2-9d4c7792c7df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParser.h">
+      <Filter>XMLParserModules\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParserModule.h">
+      <Filter>XMLParserModules\TinyXML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\XMLParserModules\TinyXML\XMLParser.cpp">
+      <Filter>XMLParserModules\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLParserModules\TinyXML\XMLParserModule.cpp">
+      <Filter>XMLParserModules\TinyXML</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
