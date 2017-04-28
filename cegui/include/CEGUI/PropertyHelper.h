@@ -29,7 +29,7 @@
 #ifndef _CEGUIPropertyHelper_h_
 #define _CEGUIPropertyHelper_h_
 
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Size.h"
 #include "CEGUI/Vector.h"
 #include "CEGUI/Quaternion.h"

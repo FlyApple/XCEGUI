@@ -26,7 +26,7 @@
  ***************************************************************************/
 #include "CEGUI/DynamicModule.h"
 #include "CEGUI/Base.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Exceptions.h"
 #include <stdlib.h>
 

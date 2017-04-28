@@ -28,7 +28,7 @@
 #define _CEGUIBasicImage_h_
 
 #include "CEGUI/Image.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Rect.h"
 
 #if defined(_MSC_VER)

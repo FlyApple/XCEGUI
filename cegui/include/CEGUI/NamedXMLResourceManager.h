@@ -28,7 +28,7 @@
 #define _CEGUINamedXMLResourceManager_h_
 
 #include "CEGUI/EventSet.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Exceptions.h"
 #include "CEGUI/Logger.h"
 #include "CEGUI/InputEvent.h"

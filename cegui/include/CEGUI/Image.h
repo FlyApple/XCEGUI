@@ -28,7 +28,7 @@
 #define _CEGUIImage_h_
 
 #include "CEGUI/ChainedXMLHandler.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/ColourRect.h"
 #include "CEGUI/Rect.h"
 

@@ -30,7 +30,7 @@
 #include "CEGUI/Base.h"
 #include "CEGUI/PropertySet.h"
 #include "CEGUI/EventSet.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/XMLSerializer.h"
 #include "CEGUI/FontGlyph.h"
 

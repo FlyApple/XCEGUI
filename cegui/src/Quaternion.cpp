@@ -29,7 +29,7 @@
 
 #include "CEGUI/Quaternion.h"
 #include "CEGUI/Vector.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/PropertyHelper.h"
 #include "CEGUI/Exceptions.h"
 #include <limits>

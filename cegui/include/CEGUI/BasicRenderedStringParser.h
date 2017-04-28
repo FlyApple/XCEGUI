@@ -31,7 +31,7 @@
 
 #include "CEGUI/Rect.h"
 #include "CEGUI/ColourRect.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/falagard/Enums.h"
 #include <map>
 

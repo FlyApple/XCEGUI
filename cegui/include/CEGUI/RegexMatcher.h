@@ -28,7 +28,7 @@
 #define _CEGUIRegexMatcher_h_
 
 #include "CEGUI/Base.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/InputEvent.h"
 
 // Start of CEGUI namespace section

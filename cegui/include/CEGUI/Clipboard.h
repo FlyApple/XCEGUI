@@ -29,7 +29,7 @@
 #ifndef _CEGUIClipboard_h_
 #define _CEGUIClipboard_h_
 
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 
 #if defined(_MSC_VER)
 #   pragma warning(push)

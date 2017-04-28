@@ -30,7 +30,7 @@
 #define _CEGUIEventSet_h_
 
 #include "CEGUI/Base.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Event.h"
 #include "CEGUI/IteratorBase.h"
 #include <map>

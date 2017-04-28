@@ -28,7 +28,7 @@
 #define _CEGUIRenderedStringParser_h_
 
 #include "CEGUI/RenderedString.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 
 // Start of CEGUI namespace section
 namespace CEGUI

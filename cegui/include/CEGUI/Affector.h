@@ -29,7 +29,7 @@
 #ifndef _CEGUIAffector_h_
 #define _CEGUIAffector_h_
 
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/KeyFrame.h"
 #include <map>
 

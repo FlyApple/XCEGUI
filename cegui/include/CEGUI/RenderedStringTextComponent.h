@@ -29,7 +29,7 @@
 
 #include "CEGUI/RenderedStringComponent.h"
 #include "CEGUI/ColourRect.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 
 // Start of CEGUI namespace section
 namespace CEGUI

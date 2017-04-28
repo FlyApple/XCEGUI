@@ -28,7 +28,7 @@
 #define _CEGUIXMLAttributes_h_
 
 #include "CEGUI/Base.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include <map>
 
 #if defined(_MSC_VER)

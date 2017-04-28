@@ -27,7 +27,7 @@
 #ifndef _CEGUIEventAction_h_
 #define _CEGUIEventAction_h_
 
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Event.h"
 #include "CEGUI/falagard/Enums.h"
 

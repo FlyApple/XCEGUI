@@ -30,7 +30,7 @@
 #define _CEGUIWindowFactory_h_
 
 #include "CEGUI/Base.h"
-#include "CEGUI/String.h"
+#include "CEGUI/StringT.h"
 #include "CEGUI/Window.h"
 
 /*!
