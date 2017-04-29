@@ -373,6 +373,11 @@
 		3BCF7AF51EB3F8D2000EF50E /* VerticalLayoutContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF78941EB3F1D2000EF50E /* VerticalLayoutContainer.cpp */; };
 		3BCF7AFC1EB3FCDA000EF50E /* IconvStringTranscoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7AFB1EB3FCDA000EF50E /* IconvStringTranscoder.h */; };
 		3BCF7AFE1EB3FCEB000EF50E /* IconvStringTranscoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7AFD1EB3FCEB000EF50E /* IconvStringTranscoder.cpp */; };
+		3BCF7B091EB4669C000EF50E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B081EB4669C000EF50E /* libiconv.tbd */; };
+		3BCF7B0B1EB4676A000EF50E /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B0A1EB4676A000EF50E /* libfreetype.a */; };
+		3BCF7B0D1EB46883000EF50E /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B0C1EB46883000EF50E /* libzlib.a */; };
+		3BCF7B131EB46A4E000EF50E /* libtinyxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B121EB46A4E000EF50E /* libtinyxml.a */; };
+		3BCF7B141EB46A6F000EF50E /* libCEGUIBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -743,6 +748,11 @@
 		3BCF7A591EB3F7BC000EF50E /* StringT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringT.cpp; path = cegui/src/StringT.cpp; sourceTree = SOURCE_ROOT; };
 		3BCF7AFB1EB3FCDA000EF50E /* IconvStringTranscoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconvStringTranscoder.h; path = cegui/include/CEGUI/IconvStringTranscoder.h; sourceTree = SOURCE_ROOT; };
 		3BCF7AFD1EB3FCEB000EF50E /* IconvStringTranscoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IconvStringTranscoder.cpp; path = cegui/src/IconvStringTranscoder.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7B081EB4669C000EF50E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		3BCF7B0A1EB4676A000EF50E /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = build/Lib/OSX/Release/libfreetype.a; sourceTree = "<group>"; };
+		3BCF7B0C1EB46883000EF50E /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = build/Lib/OSX/Release/libzlib.a; sourceTree = "<group>"; };
+		3BCF7B101EB46A12000EF50E /* libtinyxml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtinyxml.a; path = build/Lib/OSX/Release/libtinyxml.a; sourceTree = "<group>"; };
+		3BCF7B121EB46A4E000EF50E /* libtinyxml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtinyxml.a; path = build/Lib/OSX/Debug/libtinyxml.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -750,6 +760,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCF7B0D1EB46883000EF50E /* libzlib.a in Frameworks */,
+				3BCF7B0B1EB4676A000EF50E /* libfreetype.a in Frameworks */,
+				3BCF7B091EB4669C000EF50E /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +770,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCF7B141EB46A6F000EF50E /* libCEGUIBase.dylib in Frameworks */,
+				3BCF7B131EB46A4E000EF50E /* libtinyxml.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +784,7 @@
 				3BCF72C91EB3DA9C000EF50E /* CEGUIBase */,
 				3BCF77701EB3EC28000EF50E /* CEGUIExtend */,
 				3BCF72B71EB3D524000EF50E /* Products */,
+				3BCF7B051EB4666A000EF50E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1224,6 +1240,18 @@
 				3BCF777E1EB3ED44000EF50E /* XMLParserModule.cpp */,
 			);
 			name = TinyXML;
+			sourceTree = "<group>";
+		};
+		3BCF7B051EB4666A000EF50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7B121EB46A4E000EF50E /* libtinyxml.a */,
+				3BCF7B101EB46A12000EF50E /* libtinyxml.a */,
+				3BCF7B0C1EB46883000EF50E /* libzlib.a */,
+				3BCF7B0A1EB4676A000EF50E /* libfreetype.a */,
+				3BCF7B081EB4669C000EF50E /* libiconv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1848,6 +1876,11 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Lib/OSX/Release",
+					"$(PROJECT_DIR)/build/Lib/OSX/Debug",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "include cegui/include";
@@ -1864,6 +1897,11 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Lib/OSX/Release",
+					"$(PROJECT_DIR)/build/Lib/OSX/Debug",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "include cegui/include";
