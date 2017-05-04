@@ -27,7 +27,7 @@
 #include "CEGUI/IconvStringTranscoder.h"
 #include "CEGUI/Exceptions.h"
 #include <vector>
-#include <iconv.h>
+#include <iconv/iconv.h>
 #include <errno.h>
 #include <locale>
 

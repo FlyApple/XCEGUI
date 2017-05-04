@@ -38,11 +38,11 @@
 #include "CEGUI/ResourceProvider.h"
 #include <vector>
 
-#if defined(__WIN32__) || defined(_WIN32)
-#   include "CEGUI/Win32StringTranscoder.h"
-#else
+//#if defined(__WIN32__) || defined(_WIN32)
+//#   include "CEGUI/Win32StringTranscoder.h"
+//#else
 #   include "CEGUI/IconvStringTranscoder.h"
-#endif
+//#endif
 
 #if defined(_MSC_VER)
 #	pragma warning(push)
@@ -644,11 +644,11 @@ protected:
     typedef std::vector<GUIContext* CEGUI_VECTOR_ALLOC(GUIContext*)> GUIContextCollection;
     GUIContextCollection d_guiContexts;
     //! instance of class that can convert string encodings
-#if defined(__WIN32__) || defined(_WIN32)
-    static const Win32StringTranscoder d_stringTranscoder;
-#else
+//#if defined(__WIN32__) || defined(_WIN32)
+//    static const Win32StringTranscoder d_stringTranscoder;
+//#else
     static const IconvStringTranscoder d_stringTranscoder;
-#endif
+//#endif
 };
 
 } // End of  CEGUI namespace section

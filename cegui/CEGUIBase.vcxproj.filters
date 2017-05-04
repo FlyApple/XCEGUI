@@ -373,9 +373,6 @@
     <ClInclude Include="include\CEGUI\Vertex.h">
       <Filter>Include</Filter>
     </ClInclude>
-    <ClInclude Include="include\CEGUI\Win32StringTranscoder.h">
-      <Filter>Include</Filter>
-    </ClInclude>
     <ClInclude Include="include\CEGUI\Window.h">
       <Filter>Include</Filter>
     </ClInclude>
@@ -869,9 +866,6 @@
     <ClCompile Include="src\SimpleTimer.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="src\String.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="src\SubscriberSlot.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -882,9 +876,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="src\TextUtils.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Win32StringTranscoder.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="src\Window.cpp">
@@ -1114,6 +1105,12 @@
     </ClCompile>
     <ClCompile Include="src\falagard\XMLHandler.cpp">
       <Filter>Source\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IconvStringTranscoder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringT.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

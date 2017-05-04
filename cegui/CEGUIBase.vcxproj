@@ -218,7 +218,6 @@
     <ClInclude Include="include\CEGUI\widgets\Tree.h" />
     <ClInclude Include="include\CEGUI\widgets\TreeItem.h" />
     <ClInclude Include="include\CEGUI\widgets\VerticalLayoutContainer.h" />
-    <ClInclude Include="include\CEGUI\Win32StringTranscoder.h" />
     <ClInclude Include="include\CEGUI\Window.h" />
     <ClInclude Include="include\CEGUI\WindowFactory.h" />
     <ClInclude Include="include\CEGUI\WindowFactoryManager.h" />
@@ -296,6 +295,7 @@
     <ClCompile Include="src\GlobalEventSet.cpp" />
     <ClCompile Include="src\GUIContext.cpp" />
     <ClCompile Include="src\GUILayout_xmlHandler.cpp" />
+    <ClCompile Include="src\IconvStringTranscoder.cpp" />
     <ClCompile Include="src\Image.cpp" />
     <ClCompile Include="src\ImageCodec.cpp" />
     <ClCompile Include="src\ImageManager.cpp" />
@@ -330,7 +330,7 @@
     <ClCompile Include="src\Scheme_xmlHandler.cpp" />
     <ClCompile Include="src\ScriptModule.cpp" />
     <ClCompile Include="src\SimpleTimer.cpp" />
-    <ClCompile Include="src\String.cpp" />
+    <ClCompile Include="src\StringT.cpp" />
     <ClCompile Include="src\SubscriberSlot.cpp" />
     <ClCompile Include="src\System.cpp" />
     <ClCompile Include="src\SystemKeys.cpp" />
@@ -381,7 +381,6 @@
     <ClCompile Include="src\widgets\Tree.cpp" />
     <ClCompile Include="src\widgets\TreeItem.cpp" />
     <ClCompile Include="src\widgets\VerticalLayoutContainer.cpp" />
-    <ClCompile Include="src\Win32StringTranscoder.cpp" />
     <ClCompile Include="src\Window.cpp" />
     <ClCompile Include="src\WindowFactory.cpp" />
     <ClCompile Include="src\WindowFactoryManager.cpp" />
@@ -451,8 +450,12 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\build\Bin\$(Platform)\$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\build\Intermediate\$(Platform)\$(Configuration)\$(TargetName)\</IntDir>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>Full</Optimization>
@@ -485,7 +488,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -519,7 +522,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -552,7 +555,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -584,7 +587,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dbghelp.lib;winmm.lib;freetype.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
