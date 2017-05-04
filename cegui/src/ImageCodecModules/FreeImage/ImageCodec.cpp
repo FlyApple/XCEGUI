@@ -31,7 +31,8 @@ purpose:	This codec provide FreeImage based image loading
 #include "CEGUI/Logger.h"
 #include "CEGUI/Size.h"
 
-#include <FreeImage.h>
+#define FREEIMAGE_LIB
+#include <freeimage/FreeImage.h>
 
 namespace
 {

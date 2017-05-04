@@ -7,6 +7,15 @@
     <Filter Include="XMLParserModules\TinyXML">
       <UniqueIdentifier>{27e63754-fc11-44c8-8bf2-9d4c7792c7df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ImageCodecModules">
+      <UniqueIdentifier>{7ec0c62b-de6e-4cba-8f1a-0107b1faee01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageCodecModules\FreeImage">
+      <UniqueIdentifier>{255123bc-a96e-4a29-b577-b004423a8335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowRendererSets">
+      <UniqueIdentifier>{e37fbd7a-6038-4a9e-8144-ea73065499da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParser.h">
@@ -15,6 +24,96 @@
     <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParserModule.h">
       <Filter>XMLParserModules\TinyXML</Filter>
     </ClInclude>
+    <ClInclude Include="include\CEGUI\ImageCodecModules\FreeImage\ImageCodec.h">
+      <Filter>ImageCodecModules\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\ImageCodecModules\FreeImage\ImageCodecModule.h">
+      <Filter>ImageCodecModules\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Button.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Default.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Editbox.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\FrameWindow.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ItemEntry.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ItemListbox.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Listbox.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ListHeader.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ListHeaderSegment.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Menubar.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\MenuItem.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Module.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\MultiColumnList.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\MultiLineEditbox.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\PopupMenu.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ProgressBar.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ScrollablePane.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Scrollbar.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Slider.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Static.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\StaticImage.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\StaticText.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\TabButton.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\TabControl.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Titlebar.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\ToggleButton.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Tooltip.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Tree.h">
+      <Filter>WindowRendererSets</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\XMLParserModules\TinyXML\XMLParser.cpp">
@@ -22,6 +121,96 @@
     </ClCompile>
     <ClCompile Include="src\XMLParserModules\TinyXML\XMLParserModule.cpp">
       <Filter>XMLParserModules\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageCodecModules\FreeImage\ImageCodec.cpp">
+      <Filter>ImageCodecModules\FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageCodecModules\FreeImage\ImageCodecModule.cpp">
+      <Filter>ImageCodecModules\FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Button.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Default.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Editbox.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\FrameWindow.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ItemEntry.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ItemListbox.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Listbox.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ListHeader.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ListHeaderSegment.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Menubar.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\MenuItem.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Module.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\MultiColumnList.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\MultiLineEditbox.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\PopupMenu.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ProgressBar.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ScrollablePane.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Scrollbar.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Slider.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Static.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\StaticImage.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\StaticText.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\TabButton.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\TabControl.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Titlebar.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\ToggleButton.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Tooltip.cpp">
+      <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowRendererSets\Core\Tree.cpp">
+      <Filter>WindowRendererSets</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
