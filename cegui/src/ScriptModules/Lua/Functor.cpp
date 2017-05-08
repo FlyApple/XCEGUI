@@ -35,12 +35,13 @@
 
 // include Lua libs and tolua++
 extern "C" {
-#include "lua.h"
-#include "lualib.h"
-#include "lauxlib.h"
+#include "lua/lua.h"
+#include "lua/lualib.h"
+#include "lua/lauxlib.h"
 }
 
-#include "tolua++.h"
+#define TOLUA_STATIC
+#include "support/tolua++/tolua++.h"
 
 // Start of CEGUI namespace section
 namespace CEGUI

@@ -8,6 +8,7 @@
 #endif
 #include "string.h"
 
+#define TOLUA_STATIC
 #include "tolua++.h"
 
 /* Exported function */

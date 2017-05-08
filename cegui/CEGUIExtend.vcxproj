@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="include\CEGUI\ImageCodecModules\FreeImage\ImageCodec.h" />
     <ClInclude Include="include\CEGUI\ImageCodecModules\FreeImage\ImageCodecModule.h" />
+    <ClInclude Include="include\CEGUI\ScriptModules\Lua\Functor.h" />
+    <ClInclude Include="include\CEGUI\ScriptModules\Lua\ScriptModule.h" />
     <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Button.h" />
     <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Default.h" />
     <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Editbox.h" />
@@ -51,10 +53,21 @@
     <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Tree.h" />
     <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParser.h" />
     <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParserModule.h" />
+    <ClInclude Include="src\ScriptModules\Lua\required.h" />
+    <ClInclude Include="src\ScriptModules\Lua\support\tolua++\tolua_event.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ImageCodecModules\FreeImage\ImageCodec.cpp" />
     <ClCompile Include="src\ImageCodecModules\FreeImage\ImageCodecModule.cpp" />
+    <ClCompile Include="src\ScriptModules\Lua\Functor.cpp" />
+    <ClCompile Include="src\ScriptModules\Lua\lua_CEGUI.cpp" />
+    <ClCompile Include="src\ScriptModules\Lua\required.cpp" />
+    <ClCompile Include="src\ScriptModules\Lua\ScriptModule.cpp" />
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_event.c" />
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_is.c" />
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_map.c" />
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_push.c" />
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_to.c" />
     <ClCompile Include="src\WindowRendererSets\Core\Button.cpp" />
     <ClCompile Include="src\WindowRendererSets\Core\Default.cpp" />
     <ClCompile Include="src\WindowRendererSets\Core\Editbox.cpp" />
@@ -154,7 +167,7 @@
     <ClCompile>
       <Optimization>Full</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)\include;$(SolutionDir)\include\freetype;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;CEGUILUASCRIPTMODULE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -181,7 +194,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>zlib.lib;tinyxml.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;tinyxml.lib;lua.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -189,7 +202,7 @@
     <ClCompile>
       <Optimization>Full</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)\include;$(SolutionDir)\include\freetype;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;CEGUILUASCRIPTMODULE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -215,7 +228,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>zlib.lib;tinyxml.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;tinyxml.lib;lua.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -223,7 +236,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)\include;$(SolutionDir)\include\freetype;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_DEBUG=1;CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG=1;CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;CEGUILUASCRIPTMODULE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -249,14 +262,14 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>zlib.lib;tinyxml.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;tinyxml.lib;lua.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)\include;$(SolutionDir)\include\freetype;.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_DEBUG=1;CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG=1;CEGUITINYXMLPARSER_EXPORTS;CEGUIFREEIMAGEIMAGECODEC_EXPORTS;CEGUICOREWINDOWRENDERERSET_EXPORTS;CEGUILUASCRIPTMODULE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -281,7 +294,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)\build\Lib\$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>zlib.lib;tinyxml.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;tinyxml.lib;lua.lib;freeimage_static.lib;CEGUIBase.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

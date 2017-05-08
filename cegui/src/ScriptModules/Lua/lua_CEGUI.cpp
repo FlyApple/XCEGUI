@@ -8,7 +8,8 @@
 #endif
 #include "string.h"
 
-#include "tolua++.h"
+#define TOLUA_STATIC
+#include "support/tolua++/tolua++.h"
 
 /* Exported function */
 int tolua_CEGUI_open (lua_State* tolua_S);

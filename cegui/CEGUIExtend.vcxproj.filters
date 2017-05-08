@@ -16,6 +16,12 @@
     <Filter Include="WindowRendererSets">
       <UniqueIdentifier>{e37fbd7a-6038-4a9e-8144-ea73065499da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ScriptModules">
+      <UniqueIdentifier>{3853a03c-8d7d-44e6-9c32-730e1b3d614d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptModules\tolua">
+      <UniqueIdentifier>{a1180e6b-8eaf-46ff-bc1c-4dc5d94e5598}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\CEGUI\XMLParserModules\TinyXML\XMLParser.h">
@@ -114,6 +120,18 @@
     <ClInclude Include="include\CEGUI\WindowRendererSets\Core\Tree.h">
       <Filter>WindowRendererSets</Filter>
     </ClInclude>
+    <ClInclude Include="include\CEGUI\ScriptModules\Lua\Functor.h">
+      <Filter>ScriptModules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CEGUI\ScriptModules\Lua\ScriptModule.h">
+      <Filter>ScriptModules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScriptModules\Lua\required.h">
+      <Filter>ScriptModules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScriptModules\Lua\support\tolua++\tolua_event.h">
+      <Filter>ScriptModules\tolua</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\XMLParserModules\TinyXML\XMLParser.cpp">
@@ -211,6 +229,33 @@
     </ClCompile>
     <ClCompile Include="src\WindowRendererSets\Core\Tree.cpp">
       <Filter>WindowRendererSets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\Functor.cpp">
+      <Filter>ScriptModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\lua_CEGUI.cpp">
+      <Filter>ScriptModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\required.cpp">
+      <Filter>ScriptModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\ScriptModule.cpp">
+      <Filter>ScriptModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_event.c">
+      <Filter>ScriptModules\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_is.c">
+      <Filter>ScriptModules\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_map.c">
+      <Filter>ScriptModules\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_push.c">
+      <Filter>ScriptModules\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptModules\Lua\support\tolua++\tolua_to.c">
+      <Filter>ScriptModules\tolua</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

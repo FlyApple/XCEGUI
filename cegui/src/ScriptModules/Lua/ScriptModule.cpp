@@ -37,12 +37,13 @@
 
 // include Lua libs and tolua++
 extern "C" {
-#include "lua.h"
-#include "lualib.h"
-#include "lauxlib.h"
+#include "lua/lua.h"
+#include "lua/lualib.h"
+#include "lua/lauxlib.h"
 }
 
-#include "tolua++.h"
+#define TOLUA_STATIC
+#include "support/tolua++/tolua++.h"
 
 // prototype for bindings initialisation function
 int tolua_CEGUI_open(lua_State* tolua_S);
