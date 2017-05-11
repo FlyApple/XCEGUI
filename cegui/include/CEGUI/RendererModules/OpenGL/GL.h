@@ -34,7 +34,7 @@
 #include <epoxy/gl.h>
 
 #elif defined CEGUI_USE_GLEW
-
+#define  GLEW_STATIC
 #include <GL/glew.h>
 
 // When using GLEW, there's no need to "#include" the OpenGL headers.
@@ -56,7 +56,7 @@
 #endif
 
 #if (defined( __WIN32__ ) || defined( _WIN32 )) && !defined(CEGUI_STATIC)
-#   if defined(CEGUIOPENGLRENDERER_EXPORTS) || defined(CEGUIOPENGLES2RENDERER_EXPORTS)
+#   if defined(CEGUIOPENGL3RENDERER_EXPORTS) || defined(CEGUIOPENGLES2RENDERER_EXPORTS)
 #       define OPENGL_GUIRENDERER_API __declspec(dllexport)
 #   else
 #       define OPENGL_GUIRENDERER_API __declspec(dllimport)

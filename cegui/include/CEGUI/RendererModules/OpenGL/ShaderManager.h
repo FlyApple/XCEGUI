@@ -29,7 +29,6 @@
 #define _CEGUIOpenGL3ShaderManager_h_
 
 #include "CEGUI/Base.h"
-#include "CEGUI/RendererModules/OpenGL/GL.h"
 
 #include <map>
 #include <string>

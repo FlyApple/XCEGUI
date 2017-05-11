@@ -194,5 +194,15 @@ setting CMake options and regenerating, rather than editing directly.
 // itself, and likely will not be useful externally.
 /* #undef CEGUI_ICONV_USES_CONST_INBUF */
 
+//////////////////////////////////////////////////////////////////////////
+// The following controls whether freetype based font support will be
+// compiled in (default).  If you want to build CEGUI /without/ freetype
+// support, comment the following line.
+//////////////////////////////////////////////////////////////////////////
+#if defined(_WIN32) || defined(__WIN32__)
+#	define			CEGUI_USE_GLEW
+#endif
+
+
 #endif	// end of guard _CEGUIConfig_h_
 

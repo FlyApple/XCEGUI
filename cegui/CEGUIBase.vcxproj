@@ -394,7 +394,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EDF866E4-13E1-DE40-80EF-FFDE7A8BD3A4}</ProjectGuid>
-    <RootNamespace>BulletCollision</RootNamespace>
+    <RootNamespace>CEGUI</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>CEGUIBase</ProjectName>
   </PropertyGroup>

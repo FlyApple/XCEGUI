@@ -8,6 +8,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEGUIExtend", "cegui\CEGUIE
 		{EDF866E4-13E1-DE40-80EF-FFDE7A8BD3A4} = {EDF866E4-13E1-DE40-80EF-FFDE7A8BD3A4}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{D22BC6EB-8F2E-42CA-B5F5-C9C31E097903}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEGUIOpenGL3Renderer", "cegui\CEGUIOpenGL3Renderer.vcxproj", "{4E276767-5251-4A60-8AB8-3D6C112F49F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{F57B1612-9855-4F36-AE35-7FCE0144B304}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -32,8 +41,21 @@ Global
 		{AA55AFFF-2E41-4688-867B-9F45E98B1EE4}.Release|Win32.Build.0 = Release|Win32
 		{AA55AFFF-2E41-4688-867B-9F45E98B1EE4}.Release|x64.ActiveCfg = Release|x64
 		{AA55AFFF-2E41-4688-867B-9F45E98B1EE4}.Release|x64.Build.0 = Release|x64
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Debug|Win32.Build.0 = Debug|Win32
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Debug|x64.ActiveCfg = Debug|x64
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Debug|x64.Build.0 = Debug|x64
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Release|Win32.ActiveCfg = Release|Win32
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Release|Win32.Build.0 = Release|Win32
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Release|x64.ActiveCfg = Release|x64
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA55AFFF-2E41-4688-867B-9F45E98B1EE4} = {D22BC6EB-8F2E-42CA-B5F5-C9C31E097903}
+		{EDF866E4-13E1-DE40-80EF-FFDE7A8BD3A4} = {D22BC6EB-8F2E-42CA-B5F5-C9C31E097903}
+		{4E276767-5251-4A60-8AB8-3D6C112F49F0} = {D22BC6EB-8F2E-42CA-B5F5-C9C31E097903}
 	EndGlobalSection
 EndGlobal
