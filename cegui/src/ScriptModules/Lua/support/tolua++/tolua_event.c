@@ -14,8 +14,7 @@
 
 #include <stdio.h>
 
-#define TOLUA_STATIC
-#include "tolua++.h"
+#include "support/tolua++/tolua++.h"
 
 /* Store at ubox
 	* It stores, creating the corresponding table if needed,

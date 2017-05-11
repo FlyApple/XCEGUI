@@ -11,8 +11,8 @@
 ** the author has no obligation to provide maintenance, support, updates,
 ** enhancements, or modifications.
 */
-#define TOLUA_STATIC
-#include "tolua++.h"
+
+#include "support/tolua++/tolua++.h"
 #include "tolua_event.h"
 #include "lua/lauxlib.h"
 

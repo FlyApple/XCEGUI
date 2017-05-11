@@ -17,11 +17,13 @@
 #define TOLUA_H
 
 /* original code */
+#define TOLUA_STATIC
 /*
 #ifndef TOLUA_API
 #define TOLUA_API extern
 #endif
 */
+
 
 /********************************
 ******** CEGUI CHANGES **********
@@ -65,8 +67,8 @@ extern "C" {
 
 typedef int lua_Object;
 
-#include "lua.h"
-#include "lauxlib.h"
+#include "lua/lua.h"
+#include "lua/lauxlib.h"
 
 struct tolua_Error
 {

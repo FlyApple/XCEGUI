@@ -40,7 +40,6 @@ extern "C" {
 #include "lua/lauxlib.h"
 }
 
-#define TOLUA_STATIC
 #include "support/tolua++/tolua++.h"
 
 // Start of CEGUI namespace section

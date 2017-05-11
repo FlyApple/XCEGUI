@@ -12,8 +12,8 @@
 ** enhancements, or modifications.
 */
 
-#define TOLUA_STATIC
-#include "tolua++.h"
+
+#include "support/tolua++/tolua++.h"
 #include "lua/lauxlib.h"
 
 #include <stdlib.h>
