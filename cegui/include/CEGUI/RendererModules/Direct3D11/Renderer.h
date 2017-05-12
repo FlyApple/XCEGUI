@@ -26,11 +26,6 @@
 #ifndef _CEGUIDirect3D11Renderer_h_
 #define _CEGUIDirect3D11Renderer_h_
 
-#include "../../Renderer.h"
-#include "../../Size.h"
-#include "../../Vector.h"
-#include <vector>
-#include <map>
 
 #if (defined( __WIN32__ ) || defined( _WIN32 )) && !defined(CEGUI_STATIC)
 #   ifdef CEGUIDIRECT3D11RENDERER_EXPORTS
@@ -47,6 +42,9 @@
 #   pragma warning(disable : 4251)
 #endif
 
+#include <vector>
+#include <map>
+
 // D3D forward refs
 struct ID3D11Device;
 struct ID3D11DeviceContext;
@@ -58,10 +56,14 @@ struct ID3DX11EffectMatrixVariable;//D3DXEffect11 in dependences
 struct ID3D11ShaderResourceView;//D3DXEffect11 in dependences
 struct D3DXMATRIX;
 
-#include <d3d11.h>
-#include <d3dx11.h>
-#include <d3dx10.h>
 
+#include <dxsdk/d3d11.h>
+#include <dxsdk/d3dx11.h>
+#include <dxsdk/d3dx10.h>
+
+#include "../../Renderer.h"
+#include "../../Size.h"
+#include "../../Vector.h"
 
 struct IDevice11//little structure that keeps both device, in order to reduce copy & paste around module
 {

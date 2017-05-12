@@ -27,8 +27,9 @@
 #include "CEGUI/System.h"
 #include "CEGUI/Exceptions.h"
 #include "CEGUI/ImageCodec.h"
-#include <d3d11.h>
-#include <d3dx11effect.h>
+
+#include <dxsdk/d3d11.h>
+#include "Effect11/d3dx11effect.h"
 
 
 // Start of CEGUI namespace section
