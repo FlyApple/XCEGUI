@@ -27,13 +27,14 @@
 #ifndef _CEGUIDirect3D9GeometryBuffer_h_
 #define _CEGUIDirect3D9GeometryBuffer_h_
 
-#include "../../GeometryBuffer.h"
-#include "CEGUI/RendererModules/Direct3D9/Renderer.h"
-#include "../../Rect.h"
-#include "../../Quaternion.h"
-#include <d3dx9.h>
+#include <dxsdk/d3dx9.h>
 #include <utility>
 #include <vector>
+
+#include "../../GeometryBuffer.h"
+#include "../../Rect.h"
+#include "../../Quaternion.h"
+
 
 #if defined(_MSC_VER)
 #   pragma warning(push)

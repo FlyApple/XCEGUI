@@ -30,7 +30,7 @@
 #include "CEGUI/RendererModules/Direct3D9/Renderer.h"
 #include "../../RenderTarget.h"
 #include "../../Rect.h"
-#include <d3dx9.h>
+#include <dxsdk/d3dx9.h>
 
 #if defined(_MSC_VER)
 #   pragma warning(push)

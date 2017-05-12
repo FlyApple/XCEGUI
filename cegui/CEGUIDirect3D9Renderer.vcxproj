@@ -19,32 +19,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\d3dx11dbg.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\d3dxGlobal.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\EffectAPI.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\EffectLoad.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\EffectNonRuntime.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\EffectReflection.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Effect11\EffectRuntime.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\GeometryBuffer.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Renderer.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\Texture.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\TextureTarget.cpp" />
-    <ClCompile Include="src\RendererModules\Direct3D11\ViewportTarget.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D9\GeometryBuffer.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D9\Renderer.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D9\Texture.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D9\TextureTarget.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D9\ViewportTarget.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\GeometryBuffer.h" />
-    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\Renderer.h" />
-    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\RenderTarget.h" />
-    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\Texture.h" />
-    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\TextureTarget.h" />
-    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\ViewportTarget.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D9\GeometryBuffer.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D9\Renderer.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D9\RenderTarget.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D9\Texture.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D9\TextureTarget.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D9\ViewportTarget.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C931E18-8ECB-4B3E-A4D2-C01332E0480C}</ProjectGuid>
+    <ProjectGuid>{4D23D8DE-6726-4F18-92DA-59037A764343}</ProjectGuid>
     <RootNamespace>CEGUI</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>CEGUIDirect3D11Renderer</ProjectName>
+    <ProjectName>CEGUIDirect3D9Renderer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -107,8 +100,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>Full</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>CEGUIDIRECT3D11RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CEGUIDIRECT3D9RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -142,8 +135,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <Optimization>Full</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>CEGUIDIRECT3D11RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CEGUIDIRECT3D9RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -176,8 +169,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_DEBUG=1;CEGUIDIRECT3D11RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG=1;CEGUIDIRECT3D9RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -209,8 +202,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_DEBUG=1;CEGUIDIRECT3D11RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;.\include;.\cegui\include\CEGUI\RendererModules\Direct3D9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG=1;CEGUIDIRECT3D9RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>

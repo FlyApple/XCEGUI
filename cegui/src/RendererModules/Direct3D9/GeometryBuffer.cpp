@@ -24,6 +24,8 @@
  *   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  *   OTHER DEALINGS IN THE SOFTWARE.
  ***************************************************************************/
+
+#include "CEGUI/RendererModules/Direct3D9/Renderer.h"
 #include "CEGUI/RendererModules/Direct3D9/GeometryBuffer.h"
 #include "CEGUI/RendererModules/Direct3D9/Texture.h"
 #include "CEGUI/RenderEffect.h"

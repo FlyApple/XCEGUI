@@ -28,7 +28,7 @@
 #include "CEGUI/RendererModules/Direct3D9/GeometryBuffer.h"
 #include "CEGUI/RenderQueue.h"
 #include "CEGUI/Exceptions.h"
-#include <d3dx9.h>
+#include <dxsdk/d3dx9.h>
 
 // Start of CEGUI namespace section
 namespace CEGUI

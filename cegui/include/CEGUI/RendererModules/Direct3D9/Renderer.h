@@ -27,14 +27,6 @@
 #ifndef _CEGUIDirect3D9Renderer_h_
 #define _CEGUIDirect3D9Renderer_h_
 
-#include "../../Base.h"
-#include "../../Renderer.h"
-#include "../../Size.h"
-#include "../../Vector.h"
-
-#include <d3d9.h>
-#include <vector>
-#include <map>
 
 #if (defined( __WIN32__ ) || defined( _WIN32 )) && !defined(CEGUI_STATIC)
 #   ifdef CEGUIDIRECT3D9RENDERER_EXPORTS
@@ -50,6 +42,16 @@
 #   pragma warning(push)
 #   pragma warning(disable : 4251)
 #endif
+
+#include <dxsdk/d3d9.h>
+#include <vector>
+#include <map>
+
+#include "../../Base.h"
+#include "../../Renderer.h"
+#include "../../Size.h"
+#include "../../Vector.h"
+
 
 // Start of CEGUI namespace section
 namespace CEGUI

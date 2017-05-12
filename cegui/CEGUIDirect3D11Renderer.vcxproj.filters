@@ -27,5 +27,18 @@
     <ClCompile Include="src\RendererModules\Direct3D11\Effect11\EffectNonRuntime.cpp">
       <Filter>Effect11</Filter>
     </ClCompile>
+    <ClCompile Include="src\RendererModules\Direct3D11\GeometryBuffer.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D11\Renderer.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D11\Texture.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D11\TextureTarget.cpp" />
+    <ClCompile Include="src\RendererModules\Direct3D11\ViewportTarget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\GeometryBuffer.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\Renderer.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\RenderTarget.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\Texture.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\TextureTarget.h" />
+    <ClInclude Include="include\CEGUI\RendererModules\Direct3D11\ViewportTarget.h" />
   </ItemGroup>
 </Project>
