@@ -212,11 +212,6 @@
 		3BCF77631EB3E18C000EF50E /* TreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF77341EB3E18C000EF50E /* TreeItem.h */; };
 		3BCF77641EB3E18C000EF50E /* VerticalLayoutContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF77351EB3E18C000EF50E /* VerticalLayoutContainer.h */; };
 		3BCF776A1EB3EAC7000EF50E /* Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF77691EB3EAC7000EF50E /* Base.cpp */; };
-		3BCF77831EB3ED5B000EF50E /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF77811EB3ED5B000EF50E /* XMLParser.h */; };
-		3BCF77841EB3ED5B000EF50E /* XMLParserModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF77821EB3ED5B000EF50E /* XMLParserModule.h */; };
-		3BCF78ED1EB3F322000EF50E /* XMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF777D1EB3ED44000EF50E /* XMLParser.cpp */; };
-		3BCF78EE1EB3F322000EF50E /* XMLParserModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF777E1EB3ED44000EF50E /* XMLParserModule.cpp */; };
-		3BCF7A5A1EB3F7BC000EF50E /* StringT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7A591EB3F7BC000EF50E /* StringT.cpp */; };
 		3BCF7A5B1EB3F89E000EF50E /* Affector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF77851EB3F0D2000EF50E /* Affector.cpp */; };
 		3BCF7A5C1EB3F89E000EF50E /* Animation_xmlHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF77861EB3F0D2000EF50E /* Animation_xmlHandler.cpp */; };
 		3BCF7A5D1EB3F89E000EF50E /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF77871EB3F0D2000EF50E /* Animation.cpp */; };
@@ -373,11 +368,89 @@
 		3BCF7AF51EB3F8D2000EF50E /* VerticalLayoutContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF78941EB3F1D2000EF50E /* VerticalLayoutContainer.cpp */; };
 		3BCF7AFC1EB3FCDA000EF50E /* IconvStringTranscoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7AFB1EB3FCDA000EF50E /* IconvStringTranscoder.h */; };
 		3BCF7AFE1EB3FCEB000EF50E /* IconvStringTranscoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7AFD1EB3FCEB000EF50E /* IconvStringTranscoder.cpp */; };
-		3BCF7B091EB4669C000EF50E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B081EB4669C000EF50E /* libiconv.tbd */; };
 		3BCF7B0B1EB4676A000EF50E /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B0A1EB4676A000EF50E /* libfreetype.a */; };
-		3BCF7B0D1EB46883000EF50E /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B0C1EB46883000EF50E /* libzlib.a */; };
-		3BCF7B131EB46A4E000EF50E /* libtinyxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B121EB46A4E000EF50E /* libtinyxml.a */; };
-		3BCF7B141EB46A6F000EF50E /* libCEGUIBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */; };
+		3BCF7BB91EC5EB3E000EF50E /* libiconv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7BB81EC5EB3E000EF50E /* libiconv.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		3BCF7BBA1EC5EB90000EF50E /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B0C1EB46883000EF50E /* libzlib.a */; };
+		3BCF7C621EC605CA000EF50E /* ImageCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7BCF1EC5FE93000EF50E /* ImageCodec.cpp */; };
+		3BCF7C631EC605CA000EF50E /* ImageCodecModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7BD01EC5FE93000EF50E /* ImageCodecModule.cpp */; };
+		3BCF7C641EC605D7000EF50E /* XMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF777D1EB3ED44000EF50E /* XMLParser.cpp */; };
+		3BCF7C651EC605D7000EF50E /* XMLParserModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF777E1EB3ED44000EF50E /* XMLParserModule.cpp */; };
+		3BCF7C661EC605F0000EF50E /* ImageCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7BCB1EC5FE7E000EF50E /* ImageCodec.h */; };
+		3BCF7C671EC605F0000EF50E /* ImageCodecModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7BCC1EC5FE7E000EF50E /* ImageCodecModule.h */; };
+		3BCF7C681EC605FD000EF50E /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF77811EB3ED5B000EF50E /* XMLParser.h */; };
+		3BCF7C691EC605FD000EF50E /* XMLParserModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF77821EB3ED5B000EF50E /* XMLParserModule.h */; };
+		3BCF7C6A1EC60630000EF50E /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7BD71EC60040000EF50E /* libfreeimage.a */; };
+		3BCF7C6B1EC60630000EF50E /* libtinyxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B101EB46A12000EF50E /* libtinyxml.a */; };
+		3BCF7C6C1EC60649000EF50E /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7B0C1EB46883000EF50E /* libzlib.a */; };
+		3BCF7C6D1EC60656000EF50E /* libCEGUIBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */; };
+		3BCF7C8A1EC606AC000EF50E /* Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C6E1EC606AC000EF50E /* Button.h */; };
+		3BCF7C8B1EC606AC000EF50E /* Default.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C6F1EC606AC000EF50E /* Default.h */; };
+		3BCF7C8C1EC606AC000EF50E /* Editbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C701EC606AC000EF50E /* Editbox.h */; };
+		3BCF7C8D1EC606AC000EF50E /* FrameWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C711EC606AC000EF50E /* FrameWindow.h */; };
+		3BCF7C8E1EC606AC000EF50E /* ItemEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C721EC606AC000EF50E /* ItemEntry.h */; };
+		3BCF7C8F1EC606AC000EF50E /* ItemListbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C731EC606AC000EF50E /* ItemListbox.h */; };
+		3BCF7C901EC606AC000EF50E /* Listbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C741EC606AC000EF50E /* Listbox.h */; };
+		3BCF7C911EC606AC000EF50E /* ListHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C751EC606AC000EF50E /* ListHeader.h */; };
+		3BCF7C921EC606AC000EF50E /* ListHeaderSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C761EC606AC000EF50E /* ListHeaderSegment.h */; };
+		3BCF7C931EC606AC000EF50E /* Menubar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C771EC606AC000EF50E /* Menubar.h */; };
+		3BCF7C941EC606AC000EF50E /* MenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C781EC606AC000EF50E /* MenuItem.h */; };
+		3BCF7C951EC606AC000EF50E /* Module.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C791EC606AC000EF50E /* Module.h */; };
+		3BCF7C961EC606AC000EF50E /* MultiColumnList.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C7A1EC606AC000EF50E /* MultiColumnList.h */; };
+		3BCF7C971EC606AC000EF50E /* MultiLineEditbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C7B1EC606AC000EF50E /* MultiLineEditbox.h */; };
+		3BCF7C981EC606AC000EF50E /* PopupMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C7C1EC606AC000EF50E /* PopupMenu.h */; };
+		3BCF7C991EC606AC000EF50E /* ProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C7D1EC606AC000EF50E /* ProgressBar.h */; };
+		3BCF7C9A1EC606AC000EF50E /* ScrollablePane.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C7E1EC606AC000EF50E /* ScrollablePane.h */; };
+		3BCF7C9B1EC606AC000EF50E /* Scrollbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C7F1EC606AC000EF50E /* Scrollbar.h */; };
+		3BCF7C9C1EC606AC000EF50E /* Slider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C801EC606AC000EF50E /* Slider.h */; };
+		3BCF7C9D1EC606AC000EF50E /* Static.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C811EC606AC000EF50E /* Static.h */; };
+		3BCF7C9E1EC606AC000EF50E /* StaticImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C821EC606AC000EF50E /* StaticImage.h */; };
+		3BCF7C9F1EC606AC000EF50E /* StaticText.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C831EC606AC000EF50E /* StaticText.h */; };
+		3BCF7CA01EC606AC000EF50E /* TabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C841EC606AC000EF50E /* TabButton.h */; };
+		3BCF7CA11EC606AC000EF50E /* TabControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C851EC606AC000EF50E /* TabControl.h */; };
+		3BCF7CA21EC606AC000EF50E /* Titlebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C861EC606AC000EF50E /* Titlebar.h */; };
+		3BCF7CA31EC606AC000EF50E /* ToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C871EC606AC000EF50E /* ToggleButton.h */; };
+		3BCF7CA41EC606AC000EF50E /* Tooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C881EC606AC000EF50E /* Tooltip.h */; };
+		3BCF7CA51EC606AC000EF50E /* Tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7C891EC606AC000EF50E /* Tree.h */; };
+		3BCF7CC21EC606CB000EF50E /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CA61EC606CB000EF50E /* Button.cpp */; };
+		3BCF7CC31EC606CB000EF50E /* Default.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CA71EC606CB000EF50E /* Default.cpp */; };
+		3BCF7CC41EC606CB000EF50E /* Editbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CA81EC606CB000EF50E /* Editbox.cpp */; };
+		3BCF7CC51EC606CB000EF50E /* FrameWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CA91EC606CB000EF50E /* FrameWindow.cpp */; };
+		3BCF7CC61EC606CB000EF50E /* ItemEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CAA1EC606CB000EF50E /* ItemEntry.cpp */; };
+		3BCF7CC71EC606CB000EF50E /* ItemListbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CAB1EC606CB000EF50E /* ItemListbox.cpp */; };
+		3BCF7CC81EC606CB000EF50E /* Listbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CAC1EC606CB000EF50E /* Listbox.cpp */; };
+		3BCF7CC91EC606CB000EF50E /* ListHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CAD1EC606CB000EF50E /* ListHeader.cpp */; };
+		3BCF7CCA1EC606CB000EF50E /* ListHeaderSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CAE1EC606CB000EF50E /* ListHeaderSegment.cpp */; };
+		3BCF7CCB1EC606CB000EF50E /* Menubar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CAF1EC606CB000EF50E /* Menubar.cpp */; };
+		3BCF7CCC1EC606CB000EF50E /* MenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB01EC606CB000EF50E /* MenuItem.cpp */; };
+		3BCF7CCD1EC606CB000EF50E /* Module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB11EC606CB000EF50E /* Module.cpp */; };
+		3BCF7CCE1EC606CB000EF50E /* MultiColumnList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB21EC606CB000EF50E /* MultiColumnList.cpp */; };
+		3BCF7CCF1EC606CB000EF50E /* MultiLineEditbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB31EC606CB000EF50E /* MultiLineEditbox.cpp */; };
+		3BCF7CD01EC606CB000EF50E /* PopupMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB41EC606CB000EF50E /* PopupMenu.cpp */; };
+		3BCF7CD11EC606CB000EF50E /* ProgressBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB51EC606CB000EF50E /* ProgressBar.cpp */; };
+		3BCF7CD21EC606CC000EF50E /* ScrollablePane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB61EC606CB000EF50E /* ScrollablePane.cpp */; };
+		3BCF7CD31EC606CC000EF50E /* Scrollbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB71EC606CB000EF50E /* Scrollbar.cpp */; };
+		3BCF7CD41EC606CC000EF50E /* Slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB81EC606CB000EF50E /* Slider.cpp */; };
+		3BCF7CD51EC606CC000EF50E /* Static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CB91EC606CB000EF50E /* Static.cpp */; };
+		3BCF7CD61EC606CC000EF50E /* StaticImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CBA1EC606CB000EF50E /* StaticImage.cpp */; };
+		3BCF7CD71EC606CC000EF50E /* StaticText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CBB1EC606CB000EF50E /* StaticText.cpp */; };
+		3BCF7CD81EC606CC000EF50E /* TabButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CBC1EC606CB000EF50E /* TabButton.cpp */; };
+		3BCF7CD91EC606CC000EF50E /* TabControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CBD1EC606CB000EF50E /* TabControl.cpp */; };
+		3BCF7CDA1EC606CC000EF50E /* Titlebar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CBE1EC606CB000EF50E /* Titlebar.cpp */; };
+		3BCF7CDB1EC606CC000EF50E /* ToggleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CBF1EC606CB000EF50E /* ToggleButton.cpp */; };
+		3BCF7CDC1EC606CC000EF50E /* Tooltip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CC01EC606CB000EF50E /* Tooltip.cpp */; };
+		3BCF7CDD1EC606CC000EF50E /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CC11EC606CB000EF50E /* Tree.cpp */; };
+		3BCF7CE61EC608C5000EF50E /* tolua_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7CE01EC608C5000EF50E /* tolua_event.h */; };
+		3BCF7CE71EC608C5000EF50E /* tolua_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CE11EC608C5000EF50E /* tolua_event.c */; };
+		3BCF7CE81EC608C5000EF50E /* tolua_is.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CE21EC608C5000EF50E /* tolua_is.c */; };
+		3BCF7CE91EC608C5000EF50E /* tolua_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CE31EC608C5000EF50E /* tolua_map.c */; };
+		3BCF7CEA1EC608C5000EF50E /* tolua_push.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CE41EC608C5000EF50E /* tolua_push.c */; };
+		3BCF7CEB1EC608C5000EF50E /* tolua_to.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CE51EC608C5000EF50E /* tolua_to.c */; };
+		3BCF7CED1EC60974000EF50E /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7CEC1EC60974000EF50E /* liblua.a */; };
+		3BCF7CF31EC609B1000EF50E /* required.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF7CEE1EC609B1000EF50E /* required.h */; };
+		3BCF7CF41EC609B1000EF50E /* Functor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CEF1EC609B1000EF50E /* Functor.cpp */; };
+		3BCF7CF51EC609B1000EF50E /* lua_CEGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CF01EC609B1000EF50E /* lua_CEGUI.cpp */; };
+		3BCF7CF61EC609B1000EF50E /* required.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CF11EC609B1000EF50E /* required.cpp */; };
+		3BCF7CF71EC609B1000EF50E /* ScriptModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF7CF21EC609B1000EF50E /* ScriptModule.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -587,7 +660,6 @@
 		3BCF77341EB3E18C000EF50E /* TreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeItem.h; path = cegui/include/CEGUI/widgets/TreeItem.h; sourceTree = SOURCE_ROOT; };
 		3BCF77351EB3E18C000EF50E /* VerticalLayoutContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalLayoutContainer.h; path = cegui/include/CEGUI/widgets/VerticalLayoutContainer.h; sourceTree = SOURCE_ROOT; };
 		3BCF77691EB3EAC7000EF50E /* Base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Base.cpp; path = cegui/src/Base.cpp; sourceTree = SOURCE_ROOT; };
-		3BCF776F1EB3EC28000EF50E /* libCEGUIExtend.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCEGUIExtend.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCF777D1EB3ED44000EF50E /* XMLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMLParser.cpp; path = cegui/src/XMLParserModules/TinyXML/XMLParser.cpp; sourceTree = SOURCE_ROOT; };
 		3BCF777E1EB3ED44000EF50E /* XMLParserModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMLParserModule.cpp; path = cegui/src/XMLParserModules/TinyXML/XMLParserModule.cpp; sourceTree = SOURCE_ROOT; };
 		3BCF77811EB3ED5B000EF50E /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = cegui/include/CEGUI/XMLParserModules/TinyXML/XMLParser.h; sourceTree = SOURCE_ROOT; };
@@ -748,11 +820,84 @@
 		3BCF7A591EB3F7BC000EF50E /* StringT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringT.cpp; path = cegui/src/StringT.cpp; sourceTree = SOURCE_ROOT; };
 		3BCF7AFB1EB3FCDA000EF50E /* IconvStringTranscoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconvStringTranscoder.h; path = cegui/include/CEGUI/IconvStringTranscoder.h; sourceTree = SOURCE_ROOT; };
 		3BCF7AFD1EB3FCEB000EF50E /* IconvStringTranscoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IconvStringTranscoder.cpp; path = cegui/src/IconvStringTranscoder.cpp; sourceTree = SOURCE_ROOT; };
-		3BCF7B081EB4669C000EF50E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		3BCF7B0A1EB4676A000EF50E /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = build/Lib/OSX/Release/libfreetype.a; sourceTree = "<group>"; };
 		3BCF7B0C1EB46883000EF50E /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = build/Lib/OSX/Release/libzlib.a; sourceTree = "<group>"; };
 		3BCF7B101EB46A12000EF50E /* libtinyxml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtinyxml.a; path = build/Lib/OSX/Release/libtinyxml.a; sourceTree = "<group>"; };
-		3BCF7B121EB46A4E000EF50E /* libtinyxml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtinyxml.a; path = build/Lib/OSX/Debug/libtinyxml.a; sourceTree = "<group>"; };
+		3BCF7BB81EC5EB3E000EF50E /* libiconv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiconv.a; path = build/Lib/OSX/Release/libiconv.a; sourceTree = "<group>"; };
+		3BCF7BCB1EC5FE7E000EF50E /* ImageCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCodec.h; path = cegui/include/CEGUI/ImageCodecModules/FreeImage/ImageCodec.h; sourceTree = SOURCE_ROOT; };
+		3BCF7BCC1EC5FE7E000EF50E /* ImageCodecModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCodecModule.h; path = cegui/include/CEGUI/ImageCodecModules/FreeImage/ImageCodecModule.h; sourceTree = SOURCE_ROOT; };
+		3BCF7BCF1EC5FE93000EF50E /* ImageCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageCodec.cpp; path = cegui/src/ImageCodecModules/FreeImage/ImageCodec.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7BD01EC5FE93000EF50E /* ImageCodecModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageCodecModule.cpp; path = cegui/src/ImageCodecModules/FreeImage/ImageCodecModule.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7BD71EC60040000EF50E /* libfreeimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimage.a; path = build/Lib/OSX/Release/libfreeimage.a; sourceTree = "<group>"; };
+		3BCF7BE71EC60394000EF50E /* libCEGUIExtend.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCEGUIExtend.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCF7C6E1EC606AC000EF50E /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Button.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Button.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C6F1EC606AC000EF50E /* Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Default.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Default.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C701EC606AC000EF50E /* Editbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Editbox.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Editbox.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C711EC606AC000EF50E /* FrameWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrameWindow.h; path = cegui/include/CEGUI/WindowRendererSets/Core/FrameWindow.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C721EC606AC000EF50E /* ItemEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemEntry.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ItemEntry.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C731EC606AC000EF50E /* ItemListbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemListbox.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ItemListbox.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C741EC606AC000EF50E /* Listbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Listbox.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Listbox.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C751EC606AC000EF50E /* ListHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListHeader.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ListHeader.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C761EC606AC000EF50E /* ListHeaderSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListHeaderSegment.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ListHeaderSegment.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C771EC606AC000EF50E /* Menubar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menubar.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Menubar.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C781EC606AC000EF50E /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = cegui/include/CEGUI/WindowRendererSets/Core/MenuItem.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C791EC606AC000EF50E /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Module.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Module.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C7A1EC606AC000EF50E /* MultiColumnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiColumnList.h; path = cegui/include/CEGUI/WindowRendererSets/Core/MultiColumnList.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C7B1EC606AC000EF50E /* MultiLineEditbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiLineEditbox.h; path = cegui/include/CEGUI/WindowRendererSets/Core/MultiLineEditbox.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C7C1EC606AC000EF50E /* PopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopupMenu.h; path = cegui/include/CEGUI/WindowRendererSets/Core/PopupMenu.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C7D1EC606AC000EF50E /* ProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressBar.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ProgressBar.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C7E1EC606AC000EF50E /* ScrollablePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollablePane.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ScrollablePane.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C7F1EC606AC000EF50E /* Scrollbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scrollbar.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Scrollbar.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C801EC606AC000EF50E /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Slider.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Slider.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C811EC606AC000EF50E /* Static.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Static.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Static.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C821EC606AC000EF50E /* StaticImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticImage.h; path = cegui/include/CEGUI/WindowRendererSets/Core/StaticImage.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C831EC606AC000EF50E /* StaticText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticText.h; path = cegui/include/CEGUI/WindowRendererSets/Core/StaticText.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C841EC606AC000EF50E /* TabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabButton.h; path = cegui/include/CEGUI/WindowRendererSets/Core/TabButton.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C851EC606AC000EF50E /* TabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabControl.h; path = cegui/include/CEGUI/WindowRendererSets/Core/TabControl.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C861EC606AC000EF50E /* Titlebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Titlebar.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Titlebar.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C871EC606AC000EF50E /* ToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToggleButton.h; path = cegui/include/CEGUI/WindowRendererSets/Core/ToggleButton.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C881EC606AC000EF50E /* Tooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tooltip.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Tooltip.h; sourceTree = SOURCE_ROOT; };
+		3BCF7C891EC606AC000EF50E /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tree.h; path = cegui/include/CEGUI/WindowRendererSets/Core/Tree.h; sourceTree = SOURCE_ROOT; };
+		3BCF7CA61EC606CB000EF50E /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Button.cpp; path = cegui/src/WindowRendererSets/Core/Button.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CA71EC606CB000EF50E /* Default.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Default.cpp; path = cegui/src/WindowRendererSets/Core/Default.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CA81EC606CB000EF50E /* Editbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Editbox.cpp; path = cegui/src/WindowRendererSets/Core/Editbox.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CA91EC606CB000EF50E /* FrameWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameWindow.cpp; path = cegui/src/WindowRendererSets/Core/FrameWindow.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CAA1EC606CB000EF50E /* ItemEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ItemEntry.cpp; path = cegui/src/WindowRendererSets/Core/ItemEntry.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CAB1EC606CB000EF50E /* ItemListbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ItemListbox.cpp; path = cegui/src/WindowRendererSets/Core/ItemListbox.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CAC1EC606CB000EF50E /* Listbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Listbox.cpp; path = cegui/src/WindowRendererSets/Core/Listbox.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CAD1EC606CB000EF50E /* ListHeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ListHeader.cpp; path = cegui/src/WindowRendererSets/Core/ListHeader.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CAE1EC606CB000EF50E /* ListHeaderSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ListHeaderSegment.cpp; path = cegui/src/WindowRendererSets/Core/ListHeaderSegment.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CAF1EC606CB000EF50E /* Menubar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Menubar.cpp; path = cegui/src/WindowRendererSets/Core/Menubar.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB01EC606CB000EF50E /* MenuItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuItem.cpp; path = cegui/src/WindowRendererSets/Core/MenuItem.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB11EC606CB000EF50E /* Module.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Module.cpp; path = cegui/src/WindowRendererSets/Core/Module.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB21EC606CB000EF50E /* MultiColumnList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiColumnList.cpp; path = cegui/src/WindowRendererSets/Core/MultiColumnList.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB31EC606CB000EF50E /* MultiLineEditbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiLineEditbox.cpp; path = cegui/src/WindowRendererSets/Core/MultiLineEditbox.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB41EC606CB000EF50E /* PopupMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopupMenu.cpp; path = cegui/src/WindowRendererSets/Core/PopupMenu.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB51EC606CB000EF50E /* ProgressBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProgressBar.cpp; path = cegui/src/WindowRendererSets/Core/ProgressBar.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB61EC606CB000EF50E /* ScrollablePane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScrollablePane.cpp; path = cegui/src/WindowRendererSets/Core/ScrollablePane.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB71EC606CB000EF50E /* Scrollbar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scrollbar.cpp; path = cegui/src/WindowRendererSets/Core/Scrollbar.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB81EC606CB000EF50E /* Slider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Slider.cpp; path = cegui/src/WindowRendererSets/Core/Slider.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CB91EC606CB000EF50E /* Static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Static.cpp; path = cegui/src/WindowRendererSets/Core/Static.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CBA1EC606CB000EF50E /* StaticImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StaticImage.cpp; path = cegui/src/WindowRendererSets/Core/StaticImage.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CBB1EC606CB000EF50E /* StaticText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StaticText.cpp; path = cegui/src/WindowRendererSets/Core/StaticText.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CBC1EC606CB000EF50E /* TabButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TabButton.cpp; path = cegui/src/WindowRendererSets/Core/TabButton.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CBD1EC606CB000EF50E /* TabControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TabControl.cpp; path = cegui/src/WindowRendererSets/Core/TabControl.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CBE1EC606CB000EF50E /* Titlebar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Titlebar.cpp; path = cegui/src/WindowRendererSets/Core/Titlebar.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CBF1EC606CB000EF50E /* ToggleButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToggleButton.cpp; path = cegui/src/WindowRendererSets/Core/ToggleButton.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CC01EC606CB000EF50E /* Tooltip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tooltip.cpp; path = cegui/src/WindowRendererSets/Core/Tooltip.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CC11EC606CB000EF50E /* Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tree.cpp; path = cegui/src/WindowRendererSets/Core/Tree.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CE01EC608C5000EF50E /* tolua_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tolua_event.h; path = "cegui/src/ScriptModules/Lua/support/tolua++/tolua_event.h"; sourceTree = SOURCE_ROOT; };
+		3BCF7CE11EC608C5000EF50E /* tolua_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tolua_event.c; path = "cegui/src/ScriptModules/Lua/support/tolua++/tolua_event.c"; sourceTree = SOURCE_ROOT; };
+		3BCF7CE21EC608C5000EF50E /* tolua_is.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tolua_is.c; path = "cegui/src/ScriptModules/Lua/support/tolua++/tolua_is.c"; sourceTree = SOURCE_ROOT; };
+		3BCF7CE31EC608C5000EF50E /* tolua_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tolua_map.c; path = "cegui/src/ScriptModules/Lua/support/tolua++/tolua_map.c"; sourceTree = SOURCE_ROOT; };
+		3BCF7CE41EC608C5000EF50E /* tolua_push.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tolua_push.c; path = "cegui/src/ScriptModules/Lua/support/tolua++/tolua_push.c"; sourceTree = SOURCE_ROOT; };
+		3BCF7CE51EC608C5000EF50E /* tolua_to.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tolua_to.c; path = "cegui/src/ScriptModules/Lua/support/tolua++/tolua_to.c"; sourceTree = SOURCE_ROOT; };
+		3BCF7CEC1EC60974000EF50E /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = build/Lib/OSX/Release/liblua.a; sourceTree = "<group>"; };
+		3BCF7CEE1EC609B1000EF50E /* required.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = required.h; path = cegui/src/ScriptModules/Lua/required.h; sourceTree = SOURCE_ROOT; };
+		3BCF7CEF1EC609B1000EF50E /* Functor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Functor.cpp; path = cegui/src/ScriptModules/Lua/Functor.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CF01EC609B1000EF50E /* lua_CEGUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lua_CEGUI.cpp; path = cegui/src/ScriptModules/Lua/lua_CEGUI.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CF11EC609B1000EF50E /* required.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = required.cpp; path = cegui/src/ScriptModules/Lua/required.cpp; sourceTree = SOURCE_ROOT; };
+		3BCF7CF21EC609B1000EF50E /* ScriptModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScriptModule.cpp; path = cegui/src/ScriptModules/Lua/ScriptModule.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -760,18 +905,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCF7B0D1EB46883000EF50E /* libzlib.a in Frameworks */,
+				3BCF7BBA1EC5EB90000EF50E /* libzlib.a in Frameworks */,
+				3BCF7BB91EC5EB3E000EF50E /* libiconv.a in Frameworks */,
 				3BCF7B0B1EB4676A000EF50E /* libfreetype.a in Frameworks */,
-				3BCF7B091EB4669C000EF50E /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BCF776C1EB3EC28000EF50E /* Frameworks */ = {
+		3BCF7BE41EC60394000EF50E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCF7B141EB46A6F000EF50E /* libCEGUIBase.dylib in Frameworks */,
-				3BCF7B131EB46A4E000EF50E /* libtinyxml.a in Frameworks */,
+				3BCF7CED1EC60974000EF50E /* liblua.a in Frameworks */,
+				3BCF7C6D1EC60656000EF50E /* libCEGUIBase.dylib in Frameworks */,
+				3BCF7C6C1EC60649000EF50E /* libzlib.a in Frameworks */,
+				3BCF7C6A1EC60630000EF50E /* libfreeimage.a in Frameworks */,
+				3BCF7C6B1EC60630000EF50E /* libtinyxml.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,7 +930,7 @@
 			isa = PBXGroup;
 			children = (
 				3BCF72C91EB3DA9C000EF50E /* CEGUIBase */,
-				3BCF77701EB3EC28000EF50E /* CEGUIExtend */,
+				3BCF7BE81EC60394000EF50E /* CEGUIExtend */,
 				3BCF72B71EB3D524000EF50E /* Products */,
 				3BCF7B051EB4666A000EF50E /* Frameworks */,
 			);
@@ -792,7 +940,7 @@
 			isa = PBXGroup;
 			children = (
 				3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */,
-				3BCF776F1EB3EC28000EF50E /* libCEGUIExtend.dylib */,
+				3BCF7BE71EC60394000EF50E /* libCEGUIExtend.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1215,14 +1363,6 @@
 			name = widgets;
 			sourceTree = "<group>";
 		};
-		3BCF77701EB3EC28000EF50E /* CEGUIExtend */ = {
-			isa = PBXGroup;
-			children = (
-				3BCF777B1EB3ED18000EF50E /* XMLParserModules */,
-			);
-			path = CEGUIExtend;
-			sourceTree = "<group>";
-		};
 		3BCF777B1EB3ED18000EF50E /* XMLParserModules */ = {
 			isa = PBXGroup;
 			children = (
@@ -1245,13 +1385,133 @@
 		3BCF7B051EB4666A000EF50E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BCF7B121EB46A4E000EF50E /* libtinyxml.a */,
+				3BCF7CEC1EC60974000EF50E /* liblua.a */,
+				3BCF7BD71EC60040000EF50E /* libfreeimage.a */,
+				3BCF7BB81EC5EB3E000EF50E /* libiconv.a */,
 				3BCF7B101EB46A12000EF50E /* libtinyxml.a */,
 				3BCF7B0C1EB46883000EF50E /* libzlib.a */,
 				3BCF7B0A1EB4676A000EF50E /* libfreetype.a */,
-				3BCF7B081EB4669C000EF50E /* libiconv.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BCF7BC91EC5FE42000EF50E /* ImageCodecModules */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7BCA1EC5FE55000EF50E /* FreeImage */,
+			);
+			name = ImageCodecModules;
+			sourceTree = "<group>";
+		};
+		3BCF7BCA1EC5FE55000EF50E /* FreeImage */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7BCF1EC5FE93000EF50E /* ImageCodec.cpp */,
+				3BCF7BD01EC5FE93000EF50E /* ImageCodecModule.cpp */,
+				3BCF7BCB1EC5FE7E000EF50E /* ImageCodec.h */,
+				3BCF7BCC1EC5FE7E000EF50E /* ImageCodecModule.h */,
+			);
+			name = FreeImage;
+			sourceTree = "<group>";
+		};
+		3BCF7BDA1EC60268000EF50E /* WindowRendererSets */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7CA61EC606CB000EF50E /* Button.cpp */,
+				3BCF7CA71EC606CB000EF50E /* Default.cpp */,
+				3BCF7CA81EC606CB000EF50E /* Editbox.cpp */,
+				3BCF7CA91EC606CB000EF50E /* FrameWindow.cpp */,
+				3BCF7CAA1EC606CB000EF50E /* ItemEntry.cpp */,
+				3BCF7CAB1EC606CB000EF50E /* ItemListbox.cpp */,
+				3BCF7CAC1EC606CB000EF50E /* Listbox.cpp */,
+				3BCF7CAD1EC606CB000EF50E /* ListHeader.cpp */,
+				3BCF7CAE1EC606CB000EF50E /* ListHeaderSegment.cpp */,
+				3BCF7CAF1EC606CB000EF50E /* Menubar.cpp */,
+				3BCF7CB01EC606CB000EF50E /* MenuItem.cpp */,
+				3BCF7CB11EC606CB000EF50E /* Module.cpp */,
+				3BCF7CB21EC606CB000EF50E /* MultiColumnList.cpp */,
+				3BCF7CB31EC606CB000EF50E /* MultiLineEditbox.cpp */,
+				3BCF7CB41EC606CB000EF50E /* PopupMenu.cpp */,
+				3BCF7CB51EC606CB000EF50E /* ProgressBar.cpp */,
+				3BCF7CB61EC606CB000EF50E /* ScrollablePane.cpp */,
+				3BCF7CB71EC606CB000EF50E /* Scrollbar.cpp */,
+				3BCF7CB81EC606CB000EF50E /* Slider.cpp */,
+				3BCF7CB91EC606CB000EF50E /* Static.cpp */,
+				3BCF7CBA1EC606CB000EF50E /* StaticImage.cpp */,
+				3BCF7CBB1EC606CB000EF50E /* StaticText.cpp */,
+				3BCF7CBC1EC606CB000EF50E /* TabButton.cpp */,
+				3BCF7CBD1EC606CB000EF50E /* TabControl.cpp */,
+				3BCF7CBE1EC606CB000EF50E /* Titlebar.cpp */,
+				3BCF7CBF1EC606CB000EF50E /* ToggleButton.cpp */,
+				3BCF7CC01EC606CB000EF50E /* Tooltip.cpp */,
+				3BCF7CC11EC606CB000EF50E /* Tree.cpp */,
+				3BCF7C6E1EC606AC000EF50E /* Button.h */,
+				3BCF7C6F1EC606AC000EF50E /* Default.h */,
+				3BCF7C701EC606AC000EF50E /* Editbox.h */,
+				3BCF7C711EC606AC000EF50E /* FrameWindow.h */,
+				3BCF7C721EC606AC000EF50E /* ItemEntry.h */,
+				3BCF7C731EC606AC000EF50E /* ItemListbox.h */,
+				3BCF7C741EC606AC000EF50E /* Listbox.h */,
+				3BCF7C751EC606AC000EF50E /* ListHeader.h */,
+				3BCF7C761EC606AC000EF50E /* ListHeaderSegment.h */,
+				3BCF7C771EC606AC000EF50E /* Menubar.h */,
+				3BCF7C781EC606AC000EF50E /* MenuItem.h */,
+				3BCF7C791EC606AC000EF50E /* Module.h */,
+				3BCF7C7A1EC606AC000EF50E /* MultiColumnList.h */,
+				3BCF7C7B1EC606AC000EF50E /* MultiLineEditbox.h */,
+				3BCF7C7C1EC606AC000EF50E /* PopupMenu.h */,
+				3BCF7C7D1EC606AC000EF50E /* ProgressBar.h */,
+				3BCF7C7E1EC606AC000EF50E /* ScrollablePane.h */,
+				3BCF7C7F1EC606AC000EF50E /* Scrollbar.h */,
+				3BCF7C801EC606AC000EF50E /* Slider.h */,
+				3BCF7C811EC606AC000EF50E /* Static.h */,
+				3BCF7C821EC606AC000EF50E /* StaticImage.h */,
+				3BCF7C831EC606AC000EF50E /* StaticText.h */,
+				3BCF7C841EC606AC000EF50E /* TabButton.h */,
+				3BCF7C851EC606AC000EF50E /* TabControl.h */,
+				3BCF7C861EC606AC000EF50E /* Titlebar.h */,
+				3BCF7C871EC606AC000EF50E /* ToggleButton.h */,
+				3BCF7C881EC606AC000EF50E /* Tooltip.h */,
+				3BCF7C891EC606AC000EF50E /* Tree.h */,
+			);
+			name = WindowRendererSets;
+			sourceTree = "<group>";
+		};
+		3BCF7BE81EC60394000EF50E /* CEGUIExtend */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7CDE1EC60877000EF50E /* ScriptModules */,
+				3BCF7BC91EC5FE42000EF50E /* ImageCodecModules */,
+				3BCF7BDA1EC60268000EF50E /* WindowRendererSets */,
+				3BCF777B1EB3ED18000EF50E /* XMLParserModules */,
+			);
+			path = CEGUIExtend;
+			sourceTree = "<group>";
+		};
+		3BCF7CDE1EC60877000EF50E /* ScriptModules */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7CEE1EC609B1000EF50E /* required.h */,
+				3BCF7CEF1EC609B1000EF50E /* Functor.cpp */,
+				3BCF7CF01EC609B1000EF50E /* lua_CEGUI.cpp */,
+				3BCF7CF11EC609B1000EF50E /* required.cpp */,
+				3BCF7CF21EC609B1000EF50E /* ScriptModule.cpp */,
+				3BCF7CDF1EC6088F000EF50E /* tolua */,
+			);
+			name = ScriptModules;
+			sourceTree = "<group>";
+		};
+		3BCF7CDF1EC6088F000EF50E /* tolua */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF7CE01EC608C5000EF50E /* tolua_event.h */,
+				3BCF7CE11EC608C5000EF50E /* tolua_event.c */,
+				3BCF7CE21EC608C5000EF50E /* tolua_is.c */,
+				3BCF7CE31EC608C5000EF50E /* tolua_map.c */,
+				3BCF7CE41EC608C5000EF50E /* tolua_push.c */,
+				3BCF7CE51EC608C5000EF50E /* tolua_to.c */,
+			);
+			name = tolua;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1469,12 +1729,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BCF776D1EB3EC28000EF50E /* Headers */ = {
+		3BCF7BE51EC60394000EF50E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCF77831EB3ED5B000EF50E /* XMLParser.h in Headers */,
-				3BCF77841EB3ED5B000EF50E /* XMLParserModule.h in Headers */,
+				3BCF7C681EC605FD000EF50E /* XMLParser.h in Headers */,
+				3BCF7C981EC606AC000EF50E /* PopupMenu.h in Headers */,
+				3BCF7C9A1EC606AC000EF50E /* ScrollablePane.h in Headers */,
+				3BCF7C8C1EC606AC000EF50E /* Editbox.h in Headers */,
+				3BCF7C9E1EC606AC000EF50E /* StaticImage.h in Headers */,
+				3BCF7C691EC605FD000EF50E /* XMLParserModule.h in Headers */,
+				3BCF7C8B1EC606AC000EF50E /* Default.h in Headers */,
+				3BCF7CF31EC609B1000EF50E /* required.h in Headers */,
+				3BCF7C951EC606AC000EF50E /* Module.h in Headers */,
+				3BCF7C8A1EC606AC000EF50E /* Button.h in Headers */,
+				3BCF7C8F1EC606AC000EF50E /* ItemListbox.h in Headers */,
+				3BCF7CA01EC606AC000EF50E /* TabButton.h in Headers */,
+				3BCF7C661EC605F0000EF50E /* ImageCodec.h in Headers */,
+				3BCF7CA51EC606AC000EF50E /* Tree.h in Headers */,
+				3BCF7C991EC606AC000EF50E /* ProgressBar.h in Headers */,
+				3BCF7C8E1EC606AC000EF50E /* ItemEntry.h in Headers */,
+				3BCF7CA31EC606AC000EF50E /* ToggleButton.h in Headers */,
+				3BCF7C8D1EC606AC000EF50E /* FrameWindow.h in Headers */,
+				3BCF7C961EC606AC000EF50E /* MultiColumnList.h in Headers */,
+				3BCF7C671EC605F0000EF50E /* ImageCodecModule.h in Headers */,
+				3BCF7C901EC606AC000EF50E /* Listbox.h in Headers */,
+				3BCF7CA11EC606AC000EF50E /* TabControl.h in Headers */,
+				3BCF7CE61EC608C5000EF50E /* tolua_event.h in Headers */,
+				3BCF7C921EC606AC000EF50E /* ListHeaderSegment.h in Headers */,
+				3BCF7C911EC606AC000EF50E /* ListHeader.h in Headers */,
+				3BCF7CA21EC606AC000EF50E /* Titlebar.h in Headers */,
+				3BCF7C9F1EC606AC000EF50E /* StaticText.h in Headers */,
+				3BCF7C931EC606AC000EF50E /* Menubar.h in Headers */,
+				3BCF7C9B1EC606AC000EF50E /* Scrollbar.h in Headers */,
+				3BCF7C9C1EC606AC000EF50E /* Slider.h in Headers */,
+				3BCF7C971EC606AC000EF50E /* MultiLineEditbox.h in Headers */,
+				3BCF7C9D1EC606AC000EF50E /* Static.h in Headers */,
+				3BCF7C941EC606AC000EF50E /* MenuItem.h in Headers */,
+				3BCF7CA41EC606AC000EF50E /* Tooltip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1498,13 +1790,13 @@
 			productReference = 3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
-		3BCF776E1EB3EC28000EF50E /* CEGUIExtend */ = {
+		3BCF7BE61EC60394000EF50E /* CEGUIExtend */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BCF77791EB3EC28000EF50E /* Build configuration list for PBXNativeTarget "CEGUIExtend" */;
+			buildConfigurationList = 3BCF7BEF1EC60394000EF50E /* Build configuration list for PBXNativeTarget "CEGUIExtend" */;
 			buildPhases = (
-				3BCF776B1EB3EC28000EF50E /* Sources */,
-				3BCF776C1EB3EC28000EF50E /* Frameworks */,
-				3BCF776D1EB3EC28000EF50E /* Headers */,
+				3BCF7BE31EC60394000EF50E /* Sources */,
+				3BCF7BE41EC60394000EF50E /* Frameworks */,
+				3BCF7BE51EC60394000EF50E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1512,7 +1804,7 @@
 			);
 			name = CEGUIExtend;
 			productName = CEGUIExtend;
-			productReference = 3BCF776F1EB3EC28000EF50E /* libCEGUIExtend.dylib */;
+			productReference = 3BCF7BE71EC60394000EF50E /* libCEGUIExtend.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -1528,7 +1820,7 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
-					3BCF776E1EB3EC28000EF50E = {
+					3BCF7BE61EC60394000EF50E = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -1547,7 +1839,7 @@
 			projectRoot = "";
 			targets = (
 				3BCF72C71EB3DA9C000EF50E /* CEGUIBase */,
-				3BCF776E1EB3EC28000EF50E /* CEGUIExtend */,
+				3BCF7BE61EC60394000EF50E /* CEGUIExtend */,
 			);
 		};
 /* End PBXProject section */
@@ -1716,13 +2008,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BCF776B1EB3EC28000EF50E /* Sources */ = {
+		3BCF7BE31EC60394000EF50E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCF78ED1EB3F322000EF50E /* XMLParser.cpp in Sources */,
-				3BCF78EE1EB3F322000EF50E /* XMLParserModule.cpp in Sources */,
-				3BCF7A5A1EB3F7BC000EF50E /* StringT.cpp in Sources */,
+				3BCF7CC91EC606CB000EF50E /* ListHeader.cpp in Sources */,
+				3BCF7CCD1EC606CB000EF50E /* Module.cpp in Sources */,
+				3BCF7CC21EC606CB000EF50E /* Button.cpp in Sources */,
+				3BCF7CF51EC609B1000EF50E /* lua_CEGUI.cpp in Sources */,
+				3BCF7CCF1EC606CB000EF50E /* MultiLineEditbox.cpp in Sources */,
+				3BCF7CCB1EC606CB000EF50E /* Menubar.cpp in Sources */,
+				3BCF7CCC1EC606CB000EF50E /* MenuItem.cpp in Sources */,
+				3BCF7CCE1EC606CB000EF50E /* MultiColumnList.cpp in Sources */,
+				3BCF7CF41EC609B1000EF50E /* Functor.cpp in Sources */,
+				3BCF7CC41EC606CB000EF50E /* Editbox.cpp in Sources */,
+				3BCF7CD31EC606CC000EF50E /* Scrollbar.cpp in Sources */,
+				3BCF7CE71EC608C5000EF50E /* tolua_event.c in Sources */,
+				3BCF7CDD1EC606CC000EF50E /* Tree.cpp in Sources */,
+				3BCF7CC71EC606CB000EF50E /* ItemListbox.cpp in Sources */,
+				3BCF7CF61EC609B1000EF50E /* required.cpp in Sources */,
+				3BCF7CD71EC606CC000EF50E /* StaticText.cpp in Sources */,
+				3BCF7CC31EC606CB000EF50E /* Default.cpp in Sources */,
+				3BCF7CC51EC606CB000EF50E /* FrameWindow.cpp in Sources */,
+				3BCF7CDA1EC606CC000EF50E /* Titlebar.cpp in Sources */,
+				3BCF7CD81EC606CC000EF50E /* TabButton.cpp in Sources */,
+				3BCF7C641EC605D7000EF50E /* XMLParser.cpp in Sources */,
+				3BCF7CE91EC608C5000EF50E /* tolua_map.c in Sources */,
+				3BCF7CC81EC606CB000EF50E /* Listbox.cpp in Sources */,
+				3BCF7CD21EC606CC000EF50E /* ScrollablePane.cpp in Sources */,
+				3BCF7CEA1EC608C5000EF50E /* tolua_push.c in Sources */,
+				3BCF7C651EC605D7000EF50E /* XMLParserModule.cpp in Sources */,
+				3BCF7CDB1EC606CC000EF50E /* ToggleButton.cpp in Sources */,
+				3BCF7CC61EC606CB000EF50E /* ItemEntry.cpp in Sources */,
+				3BCF7CD61EC606CC000EF50E /* StaticImage.cpp in Sources */,
+				3BCF7CD41EC606CC000EF50E /* Slider.cpp in Sources */,
+				3BCF7C621EC605CA000EF50E /* ImageCodec.cpp in Sources */,
+				3BCF7CD51EC606CC000EF50E /* Static.cpp in Sources */,
+				3BCF7CDC1EC606CC000EF50E /* Tooltip.cpp in Sources */,
+				3BCF7CCA1EC606CB000EF50E /* ListHeaderSegment.cpp in Sources */,
+				3BCF7CE81EC608C5000EF50E /* tolua_is.c in Sources */,
+				3BCF7CEB1EC608C5000EF50E /* tolua_to.c in Sources */,
+				3BCF7CD01EC606CB000EF50E /* PopupMenu.cpp in Sources */,
+				3BCF7CD11EC606CB000EF50E /* ProgressBar.cpp in Sources */,
+				3BCF7C631EC605CA000EF50E /* ImageCodecModule.cpp in Sources */,
+				3BCF7CF71EC609B1000EF50E /* ScriptModule.cpp in Sources */,
+				3BCF7CD91EC606CC000EF50E /* TabControl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1848,8 +2178,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
@@ -1866,7 +2198,7 @@
 			};
 			name = Release;
 		};
-		3BCF77771EB3EC28000EF50E /* Debug */ = {
+		3BCF7BF01EC60394000EF50E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -1879,15 +2211,14 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Lib/OSX/Release",
-					"$(PROJECT_DIR)/build/Lib/OSX/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "include cegui/include";
+				USER_HEADER_SEARCH_PATHS = "include cegui/include cegui/include/cegui/ScriptModules/lua";
 			};
 			name = Debug;
 		};
-		3BCF77781EB3EC28000EF50E /* Release */ = {
+		3BCF7BF11EC60394000EF50E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -1900,11 +2231,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Lib/OSX/Release",
-					"$(PROJECT_DIR)/build/Lib/OSX/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "include cegui/include";
+				USER_HEADER_SEARCH_PATHS = "include cegui/include cegui/include/cegui/ScriptModules/lua";
 			};
 			name = Release;
 		};
@@ -1929,11 +2259,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BCF77791EB3EC28000EF50E /* Build configuration list for PBXNativeTarget "CEGUIExtend" */ = {
+		3BCF7BEF1EC60394000EF50E /* Build configuration list for PBXNativeTarget "CEGUIExtend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BCF77771EB3EC28000EF50E /* Debug */,
-				3BCF77781EB3EC28000EF50E /* Release */,
+				3BCF7BF01EC60394000EF50E /* Debug */,
+				3BCF7BF11EC60394000EF50E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

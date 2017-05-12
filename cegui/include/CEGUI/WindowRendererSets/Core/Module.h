@@ -41,8 +41,9 @@
 #endif
 
 //! Function we're required to export.
-extern "C"
-COREWRSET_API CEGUI::FactoryModule& getWindowRendererFactoryModule();
+//extern "C"
+COREWRSET_API
+CEGUI::FactoryModule& getWindowRendererFactoryModule();
 
 namespace CEGUI
 {

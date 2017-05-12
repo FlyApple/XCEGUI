@@ -32,7 +32,10 @@
 #include "CEGUI/Logger.h"
 #include "CEGUI/Exceptions.h"
 
-//#define  TIXML_USE_STL
+#if defined (__APPLE__)
+#define  TIXML_USE_STL
+#endif
+
 #include <tinyxml/tinyxml.h>
 
 //---------------------------------------------------------------------------//
