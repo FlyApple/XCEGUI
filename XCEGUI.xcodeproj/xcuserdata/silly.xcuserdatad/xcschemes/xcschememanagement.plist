@@ -14,9 +14,19 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>CEGUIOpenGL3Renderer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3B6F791E1ECF433300E3D303</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3BCF72B51EB3D524000EF50E</key>
 		<dict>
 			<key>primary</key>

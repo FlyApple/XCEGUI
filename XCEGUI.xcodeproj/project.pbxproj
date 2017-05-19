@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6F793C1ECF442100E3D303 /* ApplePBTextureTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F792A1ECF442100E3D303 /* ApplePBTextureTarget.cpp */; };
+		3B6F793D1ECF442100E3D303 /* GeometryBufferBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F792B1ECF442100E3D303 /* GeometryBufferBase.cpp */; };
+		3B6F793E1ECF442100E3D303 /* GL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F792C1ECF442100E3D303 /* GL.cpp */; };
+		3B6F793F1ECF442100E3D303 /* GL3FBOTextureTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F792D1ECF442100E3D303 /* GL3FBOTextureTarget.cpp */; };
+		3B6F79401ECF442100E3D303 /* GL3GeometryBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F792E1ECF442100E3D303 /* GL3GeometryBuffer.cpp */; };
+		3B6F79411ECF442100E3D303 /* GL3Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F792F1ECF442100E3D303 /* GL3Renderer.cpp */; };
+		3B6F79421ECF442100E3D303 /* GLFBOTextureTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79301ECF442100E3D303 /* GLFBOTextureTarget.cpp */; };
+		3B6F79431ECF442100E3D303 /* GLGeometryBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79311ECF442100E3D303 /* GLGeometryBuffer.cpp */; };
+		3B6F79441ECF442100E3D303 /* GLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79321ECF442100E3D303 /* GLRenderer.cpp */; };
+		3B6F79461ECF442100E3D303 /* RendererBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79341ECF442100E3D303 /* RendererBase.cpp */; };
+		3B6F79471ECF442100E3D303 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79351ECF442100E3D303 /* Shader.cpp */; };
+		3B6F79481ECF442100E3D303 /* ShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79361ECF442100E3D303 /* ShaderManager.cpp */; };
+		3B6F79491ECF442100E3D303 /* StateChangeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79371ECF442100E3D303 /* StateChangeWrapper.cpp */; };
+		3B6F794A1ECF442100E3D303 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79381ECF442100E3D303 /* Texture.cpp */; };
+		3B6F794B1ECF442100E3D303 /* TextureTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F79391ECF442100E3D303 /* TextureTarget.cpp */; };
+		3B6F794C1ECF442100E3D303 /* ViewportTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F793A1ECF442100E3D303 /* ViewportTarget.cpp */; };
+		3B6F79641ECF44D800E3D303 /* ApplePBTextureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F794E1ECF44D800E3D303 /* ApplePBTextureTarget.h */; };
+		3B6F79651ECF44D800E3D303 /* GeometryBufferBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F794F1ECF44D800E3D303 /* GeometryBufferBase.h */; };
+		3B6F79661ECF44D800E3D303 /* GL.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79501ECF44D800E3D303 /* GL.h */; };
+		3B6F79671ECF44D800E3D303 /* GL3FBOTextureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79511ECF44D800E3D303 /* GL3FBOTextureTarget.h */; };
+		3B6F79681ECF44D800E3D303 /* GL3GeometryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79521ECF44D800E3D303 /* GL3GeometryBuffer.h */; };
+		3B6F79691ECF44D800E3D303 /* GL3Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79531ECF44D800E3D303 /* GL3Renderer.h */; };
+		3B6F796A1ECF44D800E3D303 /* GLFBOTextureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79541ECF44D800E3D303 /* GLFBOTextureTarget.h */; };
+		3B6F796B1ECF44D800E3D303 /* GLGeometryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79551ECF44D800E3D303 /* GLGeometryBuffer.h */; };
+		3B6F796D1ECF44D800E3D303 /* GLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79571ECF44D800E3D303 /* GLRenderer.h */; };
+		3B6F796F1ECF44D800E3D303 /* RendererBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79591ECF44D800E3D303 /* RendererBase.h */; };
+		3B6F79701ECF44D800E3D303 /* RenderTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F795A1ECF44D800E3D303 /* RenderTarget.h */; };
+		3B6F79711ECF44D800E3D303 /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F795B1ECF44D800E3D303 /* Shader.h */; };
+		3B6F79721ECF44D800E3D303 /* ShaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F795C1ECF44D800E3D303 /* ShaderManager.h */; };
+		3B6F79761ECF44D800E3D303 /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79601ECF44D800E3D303 /* Texture.h */; };
+		3B6F79771ECF44D800E3D303 /* TextureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79611ECF44D800E3D303 /* TextureTarget.h */; };
+		3B6F79781ECF44D800E3D303 /* ViewportTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6F79621ECF44D800E3D303 /* ViewportTarget.h */; };
+		3B6F797B1ECF487300E3D303 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6F797A1ECF487300E3D303 /* OpenGL.framework */; };
+		3B6F797C1ECF488900E3D303 /* libCEGUIBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */; };
+		3B6F79951ECF578600E3D303 /* libglew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6F79941ECF578600E3D303 /* libglew.a */; };
 		3BCF735F1EB3DB04000EF50E /* Affector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF72D41EB3DB04000EF50E /* Affector.h */; };
 		3BCF73601EB3DB04000EF50E /* Animation_xmlHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF72D51EB3DB04000EF50E /* Animation_xmlHandler.h */; };
 		3BCF73611EB3DB04000EF50E /* Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF72D61EB3DB04000EF50E /* Animation.h */; };
@@ -454,6 +489,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B6F791F1ECF433300E3D303 /* libCEGUIOpenGL3Renderer.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCEGUIOpenGL3Renderer.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6F792A1ECF442100E3D303 /* ApplePBTextureTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ApplePBTextureTarget.cpp; path = cegui/src/RendererModules/OpenGL/ApplePBTextureTarget.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F792B1ECF442100E3D303 /* GeometryBufferBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeometryBufferBase.cpp; path = cegui/src/RendererModules/OpenGL/GeometryBufferBase.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F792C1ECF442100E3D303 /* GL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GL.cpp; path = cegui/src/RendererModules/OpenGL/GL.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F792D1ECF442100E3D303 /* GL3FBOTextureTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GL3FBOTextureTarget.cpp; path = cegui/src/RendererModules/OpenGL/GL3FBOTextureTarget.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F792E1ECF442100E3D303 /* GL3GeometryBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GL3GeometryBuffer.cpp; path = cegui/src/RendererModules/OpenGL/GL3GeometryBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F792F1ECF442100E3D303 /* GL3Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GL3Renderer.cpp; path = cegui/src/RendererModules/OpenGL/GL3Renderer.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79301ECF442100E3D303 /* GLFBOTextureTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLFBOTextureTarget.cpp; path = cegui/src/RendererModules/OpenGL/GLFBOTextureTarget.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79311ECF442100E3D303 /* GLGeometryBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLGeometryBuffer.cpp; path = cegui/src/RendererModules/OpenGL/GLGeometryBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79321ECF442100E3D303 /* GLRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLRenderer.cpp; path = cegui/src/RendererModules/OpenGL/GLRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79341ECF442100E3D303 /* RendererBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RendererBase.cpp; path = cegui/src/RendererModules/OpenGL/RendererBase.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79351ECF442100E3D303 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shader.cpp; path = cegui/src/RendererModules/OpenGL/Shader.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79361ECF442100E3D303 /* ShaderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShaderManager.cpp; path = cegui/src/RendererModules/OpenGL/ShaderManager.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79371ECF442100E3D303 /* StateChangeWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StateChangeWrapper.cpp; path = cegui/src/RendererModules/OpenGL/StateChangeWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79381ECF442100E3D303 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Texture.cpp; path = cegui/src/RendererModules/OpenGL/Texture.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F79391ECF442100E3D303 /* TextureTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextureTarget.cpp; path = cegui/src/RendererModules/OpenGL/TextureTarget.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F793A1ECF442100E3D303 /* ViewportTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewportTarget.cpp; path = cegui/src/RendererModules/OpenGL/ViewportTarget.cpp; sourceTree = SOURCE_ROOT; };
+		3B6F794E1ECF44D800E3D303 /* ApplePBTextureTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplePBTextureTarget.h; path = cegui/include/CEGUI/RendererModules/OpenGL/ApplePBTextureTarget.h; sourceTree = SOURCE_ROOT; };
+		3B6F794F1ECF44D800E3D303 /* GeometryBufferBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryBufferBase.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GeometryBufferBase.h; sourceTree = SOURCE_ROOT; };
+		3B6F79501ECF44D800E3D303 /* GL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GL.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GL.h; sourceTree = SOURCE_ROOT; };
+		3B6F79511ECF44D800E3D303 /* GL3FBOTextureTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GL3FBOTextureTarget.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GL3FBOTextureTarget.h; sourceTree = SOURCE_ROOT; };
+		3B6F79521ECF44D800E3D303 /* GL3GeometryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GL3GeometryBuffer.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GL3GeometryBuffer.h; sourceTree = SOURCE_ROOT; };
+		3B6F79531ECF44D800E3D303 /* GL3Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GL3Renderer.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GL3Renderer.h; sourceTree = SOURCE_ROOT; };
+		3B6F79541ECF44D800E3D303 /* GLFBOTextureTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLFBOTextureTarget.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GLFBOTextureTarget.h; sourceTree = SOURCE_ROOT; };
+		3B6F79551ECF44D800E3D303 /* GLGeometryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLGeometryBuffer.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GLGeometryBuffer.h; sourceTree = SOURCE_ROOT; };
+		3B6F79571ECF44D800E3D303 /* GLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLRenderer.h; path = cegui/include/CEGUI/RendererModules/OpenGL/GLRenderer.h; sourceTree = SOURCE_ROOT; };
+		3B6F79591ECF44D800E3D303 /* RendererBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RendererBase.h; path = cegui/include/CEGUI/RendererModules/OpenGL/RendererBase.h; sourceTree = SOURCE_ROOT; };
+		3B6F795A1ECF44D800E3D303 /* RenderTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderTarget.h; path = cegui/include/CEGUI/RendererModules/OpenGL/RenderTarget.h; sourceTree = SOURCE_ROOT; };
+		3B6F795B1ECF44D800E3D303 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = cegui/include/CEGUI/RendererModules/OpenGL/Shader.h; sourceTree = SOURCE_ROOT; };
+		3B6F795C1ECF44D800E3D303 /* ShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShaderManager.h; path = cegui/include/CEGUI/RendererModules/OpenGL/ShaderManager.h; sourceTree = SOURCE_ROOT; };
+		3B6F79601ECF44D800E3D303 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture.h; path = cegui/include/CEGUI/RendererModules/OpenGL/Texture.h; sourceTree = SOURCE_ROOT; };
+		3B6F79611ECF44D800E3D303 /* TextureTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureTarget.h; path = cegui/include/CEGUI/RendererModules/OpenGL/TextureTarget.h; sourceTree = SOURCE_ROOT; };
+		3B6F79621ECF44D800E3D303 /* ViewportTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewportTarget.h; path = cegui/include/CEGUI/RendererModules/OpenGL/ViewportTarget.h; sourceTree = SOURCE_ROOT; };
+		3B6F797A1ECF487300E3D303 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3B6F79941ECF578600E3D303 /* libglew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglew.a; path = build/Lib/OSX/Release/libglew.a; sourceTree = "<group>"; };
 		3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCEGUIBase.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCF72D41EB3DB04000EF50E /* Affector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Affector.h; path = cegui/include/CEGUI/Affector.h; sourceTree = SOURCE_ROOT; };
 		3BCF72D51EB3DB04000EF50E /* Animation_xmlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animation_xmlHandler.h; path = cegui/include/CEGUI/Animation_xmlHandler.h; sourceTree = SOURCE_ROOT; };
@@ -901,6 +971,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B6F791C1ECF433300E3D303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6F79951ECF578600E3D303 /* libglew.a in Frameworks */,
+				3B6F797C1ECF488900E3D303 /* libCEGUIBase.dylib in Frameworks */,
+				3B6F797B1ECF487300E3D303 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BCF72C51EB3DA9C000EF50E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -926,11 +1006,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B6F79201ECF433300E3D303 /* CEGUIOpenGL3Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F794E1ECF44D800E3D303 /* ApplePBTextureTarget.h */,
+				3B6F794F1ECF44D800E3D303 /* GeometryBufferBase.h */,
+				3B6F79501ECF44D800E3D303 /* GL.h */,
+				3B6F79511ECF44D800E3D303 /* GL3FBOTextureTarget.h */,
+				3B6F79521ECF44D800E3D303 /* GL3GeometryBuffer.h */,
+				3B6F79531ECF44D800E3D303 /* GL3Renderer.h */,
+				3B6F79541ECF44D800E3D303 /* GLFBOTextureTarget.h */,
+				3B6F79551ECF44D800E3D303 /* GLGeometryBuffer.h */,
+				3B6F79571ECF44D800E3D303 /* GLRenderer.h */,
+				3B6F79591ECF44D800E3D303 /* RendererBase.h */,
+				3B6F795A1ECF44D800E3D303 /* RenderTarget.h */,
+				3B6F795B1ECF44D800E3D303 /* Shader.h */,
+				3B6F795C1ECF44D800E3D303 /* ShaderManager.h */,
+				3B6F79601ECF44D800E3D303 /* Texture.h */,
+				3B6F79611ECF44D800E3D303 /* TextureTarget.h */,
+				3B6F79621ECF44D800E3D303 /* ViewportTarget.h */,
+				3B6F792A1ECF442100E3D303 /* ApplePBTextureTarget.cpp */,
+				3B6F792B1ECF442100E3D303 /* GeometryBufferBase.cpp */,
+				3B6F792C1ECF442100E3D303 /* GL.cpp */,
+				3B6F792D1ECF442100E3D303 /* GL3FBOTextureTarget.cpp */,
+				3B6F792E1ECF442100E3D303 /* GL3GeometryBuffer.cpp */,
+				3B6F792F1ECF442100E3D303 /* GL3Renderer.cpp */,
+				3B6F79301ECF442100E3D303 /* GLFBOTextureTarget.cpp */,
+				3B6F79311ECF442100E3D303 /* GLGeometryBuffer.cpp */,
+				3B6F79321ECF442100E3D303 /* GLRenderer.cpp */,
+				3B6F79341ECF442100E3D303 /* RendererBase.cpp */,
+				3B6F79351ECF442100E3D303 /* Shader.cpp */,
+				3B6F79361ECF442100E3D303 /* ShaderManager.cpp */,
+				3B6F79371ECF442100E3D303 /* StateChangeWrapper.cpp */,
+				3B6F79381ECF442100E3D303 /* Texture.cpp */,
+				3B6F79391ECF442100E3D303 /* TextureTarget.cpp */,
+				3B6F793A1ECF442100E3D303 /* ViewportTarget.cpp */,
+			);
+			path = CEGUIOpenGL3Renderer;
+			sourceTree = "<group>";
+		};
 		3BCF72AD1EB3D524000EF50E = {
 			isa = PBXGroup;
 			children = (
 				3BCF72C91EB3DA9C000EF50E /* CEGUIBase */,
 				3BCF7BE81EC60394000EF50E /* CEGUIExtend */,
+				3B6F79201ECF433300E3D303 /* CEGUIOpenGL3Renderer */,
 				3BCF72B71EB3D524000EF50E /* Products */,
 				3BCF7B051EB4666A000EF50E /* Frameworks */,
 			);
@@ -941,6 +1061,7 @@
 			children = (
 				3BCF72C81EB3DA9C000EF50E /* libCEGUIBase.dylib */,
 				3BCF7BE71EC60394000EF50E /* libCEGUIExtend.dylib */,
+				3B6F791F1ECF433300E3D303 /* libCEGUIOpenGL3Renderer.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1385,6 +1506,8 @@
 		3BCF7B051EB4666A000EF50E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B6F79941ECF578600E3D303 /* libglew.a */,
+				3B6F797A1ECF487300E3D303 /* OpenGL.framework */,
 				3BCF7CEC1EC60974000EF50E /* liblua.a */,
 				3BCF7BD71EC60040000EF50E /* libfreeimage.a */,
 				3BCF7BB81EC5EB3E000EF50E /* libiconv.a */,
@@ -1517,6 +1640,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3B6F791D1ECF433300E3D303 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6F796A1ECF44D800E3D303 /* GLFBOTextureTarget.h in Headers */,
+				3B6F79701ECF44D800E3D303 /* RenderTarget.h in Headers */,
+				3B6F79781ECF44D800E3D303 /* ViewportTarget.h in Headers */,
+				3B6F796B1ECF44D800E3D303 /* GLGeometryBuffer.h in Headers */,
+				3B6F79721ECF44D800E3D303 /* ShaderManager.h in Headers */,
+				3B6F79671ECF44D800E3D303 /* GL3FBOTextureTarget.h in Headers */,
+				3B6F79661ECF44D800E3D303 /* GL.h in Headers */,
+				3B6F79691ECF44D800E3D303 /* GL3Renderer.h in Headers */,
+				3B6F79761ECF44D800E3D303 /* Texture.h in Headers */,
+				3B6F796D1ECF44D800E3D303 /* GLRenderer.h in Headers */,
+				3B6F79771ECF44D800E3D303 /* TextureTarget.h in Headers */,
+				3B6F79711ECF44D800E3D303 /* Shader.h in Headers */,
+				3B6F79641ECF44D800E3D303 /* ApplePBTextureTarget.h in Headers */,
+				3B6F79681ECF44D800E3D303 /* GL3GeometryBuffer.h in Headers */,
+				3B6F796F1ECF44D800E3D303 /* RendererBase.h in Headers */,
+				3B6F79651ECF44D800E3D303 /* GeometryBufferBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BCF72C61EB3DA9C000EF50E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1773,6 +1919,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3B6F791E1ECF433300E3D303 /* CEGUIOpenGL3Renderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6F79291ECF433300E3D303 /* Build configuration list for PBXNativeTarget "CEGUIOpenGL3Renderer" */;
+			buildPhases = (
+				3B6F791B1ECF433300E3D303 /* Sources */,
+				3B6F791C1ECF433300E3D303 /* Frameworks */,
+				3B6F791D1ECF433300E3D303 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEGUIOpenGL3Renderer;
+			productName = CEGUIOpenGL3Renderer;
+			productReference = 3B6F791F1ECF433300E3D303 /* libCEGUIOpenGL3Renderer.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		3BCF72C71EB3DA9C000EF50E /* CEGUIBase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BCF72D21EB3DA9C000EF50E /* Build configuration list for PBXNativeTarget "CEGUIBase" */;
@@ -1816,6 +1979,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "enos sariel";
 				TargetAttributes = {
+					3B6F791E1ECF433300E3D303 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					3BCF72C71EB3DA9C000EF50E = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -1840,11 +2007,35 @@
 			targets = (
 				3BCF72C71EB3DA9C000EF50E /* CEGUIBase */,
 				3BCF7BE61EC60394000EF50E /* CEGUIExtend */,
+				3B6F791E1ECF433300E3D303 /* CEGUIOpenGL3Renderer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3B6F791B1ECF433300E3D303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6F794A1ECF442100E3D303 /* Texture.cpp in Sources */,
+				3B6F793D1ECF442100E3D303 /* GeometryBufferBase.cpp in Sources */,
+				3B6F79401ECF442100E3D303 /* GL3GeometryBuffer.cpp in Sources */,
+				3B6F793F1ECF442100E3D303 /* GL3FBOTextureTarget.cpp in Sources */,
+				3B6F793C1ECF442100E3D303 /* ApplePBTextureTarget.cpp in Sources */,
+				3B6F79461ECF442100E3D303 /* RendererBase.cpp in Sources */,
+				3B6F794C1ECF442100E3D303 /* ViewportTarget.cpp in Sources */,
+				3B6F79421ECF442100E3D303 /* GLFBOTextureTarget.cpp in Sources */,
+				3B6F79491ECF442100E3D303 /* StateChangeWrapper.cpp in Sources */,
+				3B6F79441ECF442100E3D303 /* GLRenderer.cpp in Sources */,
+				3B6F794B1ECF442100E3D303 /* TextureTarget.cpp in Sources */,
+				3B6F793E1ECF442100E3D303 /* GL.cpp in Sources */,
+				3B6F79431ECF442100E3D303 /* GLGeometryBuffer.cpp in Sources */,
+				3B6F79481ECF442100E3D303 /* ShaderManager.cpp in Sources */,
+				3B6F79471ECF442100E3D303 /* Shader.cpp in Sources */,
+				3B6F79411ECF442100E3D303 /* GL3Renderer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BCF72C41EB3DA9C000EF50E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2059,6 +2250,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3B6F79271ECF433300E3D303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Lib/OSX/Release",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "include cegui/include";
+			};
+			name = Debug;
+		};
+		3B6F79281ECF433300E3D303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Lib/OSX/Release",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "include cegui/include";
+			};
+			name = Release;
+		};
 		3BCF72BF1EB3D524000EF50E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2241,6 +2472,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B6F79291ECF433300E3D303 /* Build configuration list for PBXNativeTarget "CEGUIOpenGL3Renderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6F79271ECF433300E3D303 /* Debug */,
+				3B6F79281ECF433300E3D303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3BCF72B11EB3D524000EF50E /* Build configuration list for PBXProject "XCEGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

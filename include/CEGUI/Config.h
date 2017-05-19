@@ -201,6 +201,8 @@ setting CMake options and regenerating, rather than editing directly.
 //////////////////////////////////////////////////////////////////////////
 #if defined(_WIN32) || defined(__WIN32__)
 #	define			CEGUI_USE_GLEW
+#elif defined(__APPLE__)
+#	define			CEGUI_USE_GLEW
 #endif
 
 
