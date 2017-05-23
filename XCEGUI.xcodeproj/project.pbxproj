@@ -996,10 +996,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCF7CED1EC60974000EF50E /* liblua.a in Frameworks */,
-				3BCF7C6D1EC60656000EF50E /* libCEGUIBase.dylib in Frameworks */,
 				3BCF7C6C1EC60649000EF50E /* libzlib.a in Frameworks */,
 				3BCF7C6A1EC60630000EF50E /* libfreeimage.a in Frameworks */,
 				3BCF7C6B1EC60630000EF50E /* libtinyxml.a in Frameworks */,
+				3BCF7C6D1EC60656000EF50E /* libCEGUIBase.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1506,8 +1506,8 @@
 		3BCF7B051EB4666A000EF50E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B6F79941ECF578600E3D303 /* libglew.a */,
 				3B6F797A1ECF487300E3D303 /* OpenGL.framework */,
+				3B6F79941ECF578600E3D303 /* libglew.a */,
 				3BCF7CEC1EC60974000EF50E /* liblua.a */,
 				3BCF7BD71EC60040000EF50E /* libfreeimage.a */,
 				3BCF7BB81EC5EB3E000EF50E /* libiconv.a */,
