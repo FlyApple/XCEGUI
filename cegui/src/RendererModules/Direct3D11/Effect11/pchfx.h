@@ -14,7 +14,7 @@
 #include "dxsdk/d3dx11.h"
 #undef DEFINE_GUID
 #include "INITGUID.h"
-#include "effect11/d3dx11effect.h"
+#include "CEGUI/RendererModules/Direct3D11/effect11/d3dx11effect.h"
 
 #define UNUSED -1
 

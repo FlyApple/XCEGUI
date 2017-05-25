@@ -29,7 +29,7 @@
 #include "CEGUI/ImageCodec.h"
 
 #include <dxsdk/d3d11.h>
-#include "Effect11/d3dx11effect.h"
+#include "CEGUI/RendererModules/Direct3D11/Effect11/d3dx11effect.h"
 
 
 // Start of CEGUI namespace section

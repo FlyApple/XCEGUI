@@ -38,7 +38,7 @@
 
 #include <algorithm>
 
-#include "Effect11/d3dx11effect.h"
+#include "CEGUI/RendererModules/Direct3D11/Effect11/d3dx11effect.h"
 
 #include "shader.txt"
 
