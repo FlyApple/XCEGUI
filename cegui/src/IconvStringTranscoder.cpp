@@ -207,7 +207,11 @@ uint16* IconvStringTranscoder::stringToUTF16(const String& input) const
 //----------------------------------------------------------------------------//
 std::wstring IconvStringTranscoder::stringToStdWString(const String& input) const
 {
+#if defined(_MSC_VER)
+	IconvHelper ich(UTF16PE, "UTF-8");
+#else
     IconvHelper ich("WCHAR_T", "UTF-8");
+#endif
     return iconvTranscode<std::wstring, wchar_t>(
         ich, input.c_str(), getStringLength(input.c_str()));
 }
