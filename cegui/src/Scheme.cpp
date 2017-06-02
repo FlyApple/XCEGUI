@@ -52,8 +52,8 @@
 #if defined(CEGUI_STATIC)
 extern "C"
 {
-CEGUI::FactoryModule& getWindowRendererFactoryModule();
-CEGUI::FactoryModule& getWindowFactoryModule();
+CEGUI::FactoryModule* getWindowRendererFactoryModule();
+CEGUI::FactoryModule* getWindowFactoryModule();
 }
 #endif
 
@@ -261,8 +261,8 @@ void Scheme::loadWindowFactories()
             if (!(*cmod).dynamicModule)
                 (*cmod).dynamicModule = CEGUI_NEW_AO DynamicModule((*cmod).name);
 
-            FactoryModule& (*getWindowFactoryModuleFunc)() =
-                reinterpret_cast<FactoryModule&(*)()>(
+            FactoryModule* (*getWindowFactoryModuleFunc)() =
+                reinterpret_cast<FactoryModule* (*)()>(
                     (*cmod).dynamicModule->
                         getSymbolAddress("getWindowFactoryModule"));
 
@@ -273,9 +273,9 @@ void Scheme::loadWindowFactories()
                     "was not found in module '" + (*cmod).name + "'."));
 
             // get the WindowRendererModule object for this module.
-            (*cmod).factoryModule = &getWindowFactoryModuleFunc();
+            (*cmod).factoryModule = getWindowFactoryModuleFunc();
 #else
-            (*cmod).factoryModule = &getWindowFactoryModule();
+            (*cmod).factoryModule = getWindowFactoryModule();
 #endif
         }
 
@@ -315,8 +315,8 @@ void Scheme::loadWindowRendererFactories()
             if (!(*cmod).dynamicModule)
                 (*cmod).dynamicModule = CEGUI_NEW_AO DynamicModule((*cmod).name);
 
-            FactoryModule& (*getWRFactoryModuleFunc)() =
-                reinterpret_cast<FactoryModule&(*)()>((*cmod).dynamicModule->
+            FactoryModule* (*getWRFactoryModuleFunc)() =
+                reinterpret_cast<FactoryModule*(*)()>((*cmod).dynamicModule->
                     getSymbolAddress("getWindowRendererFactoryModule"));
 
             if (!getWRFactoryModuleFunc)
@@ -326,9 +326,9 @@ void Scheme::loadWindowRendererFactories()
                     "was not found in module '" + (*cmod).name + "'."));
 
             // get the WindowRendererModule object for this module.
-            (*cmod).factoryModule = &getWRFactoryModuleFunc();
+            (*cmod).factoryModule = getWRFactoryModuleFunc();
 #else
-            (*cmod).factoryModule = &getWindowRendererFactoryModule();
+            (*cmod).factoryModule = getWindowRendererFactoryModule();
 #endif
         }
 

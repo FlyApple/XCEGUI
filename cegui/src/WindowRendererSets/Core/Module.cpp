@@ -57,11 +57,11 @@
 #include "CEGUI/WindowRendererSets/Core/Tree.h"
 
 //----------------------------------------------------------------------------//
-//extern "C"
-CEGUI::FactoryModule& getWindowRendererFactoryModule()
+extern "C"
+CEGUI::FactoryModule* getWindowRendererFactoryModule()
 {
     static CEGUI::CoreWindowRendererModule mod;
-    return mod;
+    return &mod;
 }
 
 namespace CEGUI

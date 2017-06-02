@@ -91,10 +91,10 @@ uint FactoryModule::unregisterAllFactories()
 #if defined(CEGUI_STATIC) && defined(CEGUI_BUILD_STATIC_FACTORY_MODULE)
 extern "C"
 {
-    CEGUI::FactoryModule& getWindowFactoryModule() 
+    CEGUI::FactoryModule* getWindowFactoryModule() 
     {
         static CEGUI::FactoryModule mod;
-        return mod;
+        return &mod;
     }
 }
 #endif
