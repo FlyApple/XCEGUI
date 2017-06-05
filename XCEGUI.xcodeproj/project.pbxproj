@@ -975,9 +975,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6F797B1ECF487300E3D303 /* OpenGL.framework in Frameworks */,
 				3B6F79951ECF578600E3D303 /* libglew.a in Frameworks */,
 				3B6F797C1ECF488900E3D303 /* libCEGUIBase.dylib in Frameworks */,
-				3B6F797B1ECF487300E3D303 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
